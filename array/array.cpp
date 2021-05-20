@@ -1,6 +1,8 @@
 #include <cassert>
 #include "array.h"
 
+const int Array::ARRAY_SIZE = 10;
+
 Array::Array(int size)
 : pArr_(new int[size]), size_(size) {
     assert(pArr_);

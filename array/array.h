@@ -1,13 +1,17 @@
 #ifndef ARRAY_H
 #define ARRAY_H
-#define ARRAY_SIZE 10
+// #define ARRAY_SIZE 10
+//extern const int ARRAY_SIZE;
+
 
 class Array {
 private:
+    static const int ARRAY_SIZE;
+
     int* pArr_;
     int size_;
 public:
-    explicit Array(int size = ARRAY_SIZE);
+    explicit Array(int size = Array::ARRAY_SIZE);
     Array(const int* pArr, int size);
     Array(const Array &rhs);
     ~Array();
