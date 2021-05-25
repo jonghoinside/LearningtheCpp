@@ -7,10 +7,12 @@ std::ostream& operator<<(std::ostream& out, const Complex& rhs) {
 }
 
 Complex::Complex(double re, double im) {
+	std::cout << "1\n";
 	this->re = re;
 	this->im = im;
 }
 Complex::Complex(const Complex& rhs) {
+	std::cout << "2\n";
 	this->re = rhs.re;
 	this->im = rhs.im;
 }
@@ -30,11 +32,13 @@ void Complex::imag(double im) {
 	this->im = im;
 }
 Complex& Complex::operator=(const Complex& rhs) {
+	std::cout << "3\n";
 	this->re = rhs.re;
 	this->im = rhs.im;
 	return *this;
 }
 Complex& Complex::operator=(double re) {
+	std::cout << "4\n";
 	this->re = re;
 	return *this;
 }
