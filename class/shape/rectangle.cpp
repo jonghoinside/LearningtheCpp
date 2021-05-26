@@ -8,3 +8,11 @@ Rectangle::Rectangle(int x, int y, int width, int height)
 double Rectangle::area() const {
     return width_ * height_;
 }
+
+int Rectangle::width() const {
+    return width_;
+}
+
+int Rectangle::height() const {
+    return height_;
+}

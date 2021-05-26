@@ -21,7 +21,7 @@ void String::set_str(const char *str) {
 }
 
 String::String(const char *str, bool) {
-	this->str = (char *)str;
+	this->str = const_cast<char *>(str);
 	this->len = strlen(str);
 }
 

@@ -16,6 +16,9 @@ public:
     // const Rectangle *operator&() const {return this;}
 
     virtual double area() const;
+
+    int width() const;
+    int height() const;
 };
 
 #endif

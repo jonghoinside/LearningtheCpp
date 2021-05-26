@@ -13,6 +13,18 @@ void printArea(const Shape *ps) {
     std::cout << "area : " << ps->area() << std::endl;
 }
 
+void printInfo(const Shape *ps) {   
+    if (typeid(*ps) == typeid(Rectangle)) {
+        int width = dynamic_cast<const Rectangle *>(ps)->width();
+        int height = dynamic_cast<const Rectangle *>(ps)->height();
+        std::cout << "rectangle width : " << width << ", height : " << height << std::endl;
+    }
+    else if (typeid(*ps) == typeid(Circle)) {
+        int radius =  dynamic_cast<const Circle *>(ps)->radius();
+        std::cout << "circle radius : " << radius << std::endl;
+    }
+}
+
 int main() {
 //    Shape s(100,200);
     Shape *shapes[5];
@@ -24,6 +36,10 @@ int main() {
 
     for (int i = 0 ; i < 5 ; ++i)
         printArea(shapes[i]);
+
+
+    for (int i = 0 ; i < 5 ; ++i)
+        printInfo(shapes[i]);
 
     for (int i = 0 ; i < 5 ; ++i)
         delete shapes[i];

@@ -10,6 +10,8 @@ public:
     virtual ~Circle() {}
 
     virtual double area() const;
+
+    int radius() const;
 };
 
 #endif

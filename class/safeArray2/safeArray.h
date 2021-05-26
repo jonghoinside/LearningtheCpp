@@ -40,7 +40,7 @@ SafeArray<T>::SafeArray(const T *pArr, int size)
 }
 template <typename T>
 SafeArray<T>::SafeArray(const SafeArray<T>& rhs) 
-: Array<T>( (Array<T>)rhs){
+: Array<T>( static_cast<Array<T> >(rhs)){
 
 }
 template <typename T>
@@ -49,13 +49,13 @@ SafeArray<T>::~SafeArray() {
 }
 template <typename T>
 SafeArray<T>& SafeArray<T>::operator=(const SafeArray<T>& rhs) {
-    this->Array<T>::operator=((Array<T>)rhs);
+    this->Array<T>::operator=( static_cast<Array<T> >(rhs));
 
     return *this;
 }
 template <typename T>
 bool SafeArray<T>::operator==(const SafeArray<T>& rhs) const{
-    return this->Array<T>::operator==((Array<T>)rhs);
+    return this->Array<T>::operator==( static_cast<Array<T> >(rhs));
 }
 template <typename T>
 T& SafeArray<T>::operator[](int index) {
