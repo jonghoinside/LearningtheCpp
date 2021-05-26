@@ -38,13 +38,13 @@ BoundArray<T>::BoundArray(int lower, int upper, const T *pArr)
 }
 template <typename T>
 BoundArray<T>::BoundArray(const BoundArray<T>& rhs)
-: SafeArray<T>((SafeArray<T>)rhs), lower_(rhs.lower_), upper_(rhs.upper_) {
+: SafeArray<T>(static_cast<SafeArray<T> >(rhs)), lower_(rhs.lower_), upper_(rhs.upper_) {
 
 }
 
 template <typename T>
 BoundArray<T>& BoundArray<T>::operator=(const BoundArray<T>& rhs) {
-    this->SafeArray<T>::operator=( (SafeArray<T>) rhs);
+    this->SafeArray<T>::operator=(static_cast<SafeArray<T> >(rhs));
     lower_ = rhs.lower_;
     upper_ = rhs.upper_;
 }
