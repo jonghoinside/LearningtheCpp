@@ -1,5 +1,33 @@
 #include "complex.h"
 
+std::istream& operator>>(std::istream& in, Complex& rhs) {
+	double re = 0.0;
+	double im = 0.0;
+
+	char c = 0;
+
+	in >> c;
+
+	if (c == '(') {
+		in >> re >> c;
+		if (c == ',')
+			in >> im >> c;
+		if (c == 'i')
+			in >> c;
+		if (c != ')')
+			in.clear(std::ios::failbit);
+		
+	} else {
+		in.putback(c);
+		in >> re;
+	}
+
+	if (in )
+		rhs = Complex(re, im);
+
+	return in;
+}
+
 std::ostream& operator<<(std::ostream& out, const Complex& rhs) {
 	out << "(" << rhs.re << ", " << rhs.im << "i)";
 	

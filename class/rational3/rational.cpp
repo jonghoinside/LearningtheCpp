@@ -1,5 +1,20 @@
 #include "rational.h"
 
+std::istream& operator>>(std::istream& in, Rational& rhs) {
+	int num = 0;
+	int den = 1;
+
+	in >> num;
+	if (in.peek() == '/') {
+		in.ignore();
+		in >> den;
+	}
+	if (in )
+		rhs = Rational(num, den);
+
+	return in;
+}
+
 std::ostream& operator<<(std::ostream& out, const Rational& rhs) {
 	out << rhs.num << " / " << rhs.den;
 	return out;

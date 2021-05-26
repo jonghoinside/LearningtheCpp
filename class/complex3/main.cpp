@@ -2,21 +2,17 @@
 #include "complex.h"
 
 int main() {
-	std::cout << "1.1\n";
 	Complex c1(3.0, 4.0);
-	std::cout << "1.2\n";
 	Complex c2 = 3.0;
-	std::cout << "1.3\n";
 	Complex c3;
-	std::cout << "1.4\n";
 	Complex c4 = c1;
 	
-	std::cout << "1.5\n";
 	c3 = c2 = c1;
-	std::cout << "1.6\n";
 	c2 = 3.0;
+
+	std::cout << "input c2 and c3 : ";
+	std::cin >> c2 >> c3;
 	
-	std::cout << "1.7\n";
 	++c3;		// c3.operator++()
 	c3++;		// c3.operator++(0)		//구별하기 위해서 의미없는 0 : dummy 값 넣음
 	
