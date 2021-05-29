@@ -39,7 +39,6 @@ std::ostream& operator<<(std::ostream& out, const Complex& rhs) {
 }
 
 void * Complex::operator new(size_t size) {
-	std::cout << "wow" << std::endl;
 	if (size != sizeof(Complex))
 		return ::operator new(size);
 	
@@ -57,6 +56,8 @@ void * Complex::operator new(size_t size) {
 		p = &newBlock[0];
 		headOfFreeList = &newBlock[1];
 	}
+
+	return p;
 }
 
 void Complex::operator delete(void *ptr, size_t size) {
