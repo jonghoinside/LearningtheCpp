@@ -12,6 +12,7 @@ int main() {
     Complex nums[] = {Complex(3,4), Complex(8,8), Complex(5,8), Complex(6,7)};
 
     BoundArray<Complex> arr2(1, 2, nums);
+    // BoundArray<Complex> arr2(1, 2, nums);
 
     for (int i = arr2.lower(); i <= arr2.upper(); ++i)
         std::cout << arr2[i] << " ";

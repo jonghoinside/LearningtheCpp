@@ -8,3 +8,7 @@ InvalidIndex::InvalidIndex(int index)
 int InvalidIndex::invalid() const {
     return index_;
 }
+
+// int InvalidIndex::invalid() const {
+//     return index_;
+// }

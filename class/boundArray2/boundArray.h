@@ -21,6 +21,8 @@ public:
 
     int lower() const;
     int upper() const;
+    // int lower() const;
+    // int upper() const;
 
 };
 
@@ -41,6 +43,12 @@ BoundArray<T>::BoundArray(const BoundArray<T>& rhs)
 : SafeArray<T>(static_cast<SafeArray<T> >(rhs)), lower_(rhs.lower_), upper_(rhs.upper_) {
 
 }
+
+// emplate <typename T>
+// BoundArray<T>::BoundArray(const BoundArray<T>& rhs)
+// : SafeArray<T>(static_cast<SafeArray<T> >(rhs)), lower_(rhs.lower_), upper_(rhs.upper_) {
+
+// }
 
 template <typename T>
 BoundArray<T>& BoundArray<T>::operator=(const BoundArray<T>& rhs) {
