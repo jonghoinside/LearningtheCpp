@@ -73,7 +73,9 @@ Array<T>& Array<T>::operator=(const Array<T>& rhs) {
         for (int i = 0; i < rhs.size_; ++i)
             pArr_[i] = rhs.pArr_[i];
     }
+    return *this;
 }
+
 template <typename T>
 bool Array<T>::operator==(const Array<T> &rhs) const {
     if (size_ != rhs.size_)

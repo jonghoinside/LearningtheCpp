@@ -55,6 +55,8 @@ BoundArray<T>& BoundArray<T>::operator=(const BoundArray<T>& rhs) {
     this->SafeArray<T>::operator=(static_cast<SafeArray<T> >(rhs));
     lower_ = rhs.lower_;
     upper_ = rhs.upper_;
+
+    return *this;
 }
 
 template <typename T>
