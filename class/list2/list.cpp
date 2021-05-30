@@ -79,6 +79,7 @@ List& List::operator=(const List& rhs) {
 			p2 = p2->next;
 		}
 	}
+	return *this;
 }
 
 bool List::operator==(const List& rhs) const {

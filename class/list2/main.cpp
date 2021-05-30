@@ -20,7 +20,7 @@ int main() {
 	if (list1 == list2)
 		std::cout << "list1 and list2 are equal" << std::endl;
 	else
-		std::cout << "list1 and lsit2 are not equal" << std::endl;
+		std::cout << "list1 and list2 are not equal" << std::endl;
 	
 	return 0;
 }
