@@ -5,11 +5,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/hello.cpp" "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/accelerated.dir/hello.cpp.o"
+  "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score.cpp" "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/accelerated.dir/score.cpp.o"
+  "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score2.cpp" "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/accelerated.dir/score2.cpp.o"
+  "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting.cpp" "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/accelerated.dir/warpGreeting.cpp.o"
+  "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting2.cpp" "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/accelerated.dir/warpGreeting2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../."
   )
 
 # Targets to which this target links.

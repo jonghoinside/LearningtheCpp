@@ -70,17 +70,77 @@ CMakeFiles/accelerated.dir/hello.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/accelerated.dir/hello.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/hello.cpp -o CMakeFiles/accelerated.dir/hello.cpp.s
 
+CMakeFiles/accelerated.dir/score.cpp.o: CMakeFiles/accelerated.dir/flags.make
+CMakeFiles/accelerated.dir/score.cpp.o: ../score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/accelerated.dir/score.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accelerated.dir/score.cpp.o -c /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score.cpp
+
+CMakeFiles/accelerated.dir/score.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/accelerated.dir/score.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score.cpp > CMakeFiles/accelerated.dir/score.cpp.i
+
+CMakeFiles/accelerated.dir/score.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/accelerated.dir/score.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score.cpp -o CMakeFiles/accelerated.dir/score.cpp.s
+
+CMakeFiles/accelerated.dir/score2.cpp.o: CMakeFiles/accelerated.dir/flags.make
+CMakeFiles/accelerated.dir/score2.cpp.o: ../score2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/accelerated.dir/score2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accelerated.dir/score2.cpp.o -c /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score2.cpp
+
+CMakeFiles/accelerated.dir/score2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/accelerated.dir/score2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score2.cpp > CMakeFiles/accelerated.dir/score2.cpp.i
+
+CMakeFiles/accelerated.dir/score2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/accelerated.dir/score2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score2.cpp -o CMakeFiles/accelerated.dir/score2.cpp.s
+
+CMakeFiles/accelerated.dir/warpGreeting.cpp.o: CMakeFiles/accelerated.dir/flags.make
+CMakeFiles/accelerated.dir/warpGreeting.cpp.o: ../warpGreeting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/accelerated.dir/warpGreeting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accelerated.dir/warpGreeting.cpp.o -c /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting.cpp
+
+CMakeFiles/accelerated.dir/warpGreeting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/accelerated.dir/warpGreeting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting.cpp > CMakeFiles/accelerated.dir/warpGreeting.cpp.i
+
+CMakeFiles/accelerated.dir/warpGreeting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/accelerated.dir/warpGreeting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting.cpp -o CMakeFiles/accelerated.dir/warpGreeting.cpp.s
+
+CMakeFiles/accelerated.dir/warpGreeting2.cpp.o: CMakeFiles/accelerated.dir/flags.make
+CMakeFiles/accelerated.dir/warpGreeting2.cpp.o: ../warpGreeting2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/accelerated.dir/warpGreeting2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/accelerated.dir/warpGreeting2.cpp.o -c /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting2.cpp
+
+CMakeFiles/accelerated.dir/warpGreeting2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/accelerated.dir/warpGreeting2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting2.cpp > CMakeFiles/accelerated.dir/warpGreeting2.cpp.i
+
+CMakeFiles/accelerated.dir/warpGreeting2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/accelerated.dir/warpGreeting2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting2.cpp -o CMakeFiles/accelerated.dir/warpGreeting2.cpp.s
+
 # Object files for target accelerated
 accelerated_OBJECTS = \
-"CMakeFiles/accelerated.dir/hello.cpp.o"
+"CMakeFiles/accelerated.dir/hello.cpp.o" \
+"CMakeFiles/accelerated.dir/score.cpp.o" \
+"CMakeFiles/accelerated.dir/score2.cpp.o" \
+"CMakeFiles/accelerated.dir/warpGreeting.cpp.o" \
+"CMakeFiles/accelerated.dir/warpGreeting2.cpp.o"
 
 # External object files for target accelerated
 accelerated_EXTERNAL_OBJECTS =
 
 accelerated: CMakeFiles/accelerated.dir/hello.cpp.o
+accelerated: CMakeFiles/accelerated.dir/score.cpp.o
+accelerated: CMakeFiles/accelerated.dir/score2.cpp.o
+accelerated: CMakeFiles/accelerated.dir/warpGreeting.cpp.o
+accelerated: CMakeFiles/accelerated.dir/warpGreeting2.cpp.o
 accelerated: CMakeFiles/accelerated.dir/build.make
 accelerated: CMakeFiles/accelerated.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable accelerated"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable accelerated"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/accelerated.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

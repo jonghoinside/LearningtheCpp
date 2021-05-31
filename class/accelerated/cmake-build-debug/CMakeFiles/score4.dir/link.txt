@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/score4.dir/score4.cpp.o  -o score4 

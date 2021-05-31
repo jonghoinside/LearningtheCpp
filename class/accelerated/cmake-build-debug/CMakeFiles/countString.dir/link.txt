@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/countString.dir/countString.cpp.o  -o countString 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/score4test.cpp
+iostream
+-
+vector
+-
+stdexcept
+-
+ios
+-
+iomanip
+-
+algorithm
+-
+

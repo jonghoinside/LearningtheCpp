@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/score3.dir/score3.cpp.o  -o score3 

@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named wordCount
+# Target rules for targets named score4
 
 # Build rule for target.
-wordCount: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wordCount
-.PHONY : wordCount
+score4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score4
+.PHONY : score4
 
 # fast build rule for target.
-wordCount/fast:
-	$(MAKE) -f CMakeFiles/wordCount.dir/build.make CMakeFiles/wordCount.dir/build
-.PHONY : wordCount/fast
+score4/fast:
+	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/build
+.PHONY : score4/fast
+
+#=============================================================================
+# Target rules for targets named countString
+
+# Build rule for target.
+countString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countString
+.PHONY : countString
+
+# fast build rule for target.
+countString/fast:
+	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/build
+.PHONY : countString/fast
 
 #=============================================================================
 # Target rules for targets named maxMinString
@@ -163,6 +176,19 @@ warpGreeting/fast:
 .PHONY : warpGreeting/fast
 
 #=============================================================================
+# Target rules for targets named score3
+
+# Build rule for target.
+score3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score3
+.PHONY : score3
+
+# fast build rule for target.
+score3/fast:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/build
+.PHONY : score3/fast
+
+#=============================================================================
 # Target rules for targets named score
 
 # Build rule for target.
@@ -200,6 +226,33 @@ hello: cmake_check_build_system
 hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
+
+countString.o: countString.cpp.o
+
+.PHONY : countString.o
+
+# target to build an object file
+countString.cpp.o:
+	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/countString.cpp.o
+.PHONY : countString.cpp.o
+
+countString.i: countString.cpp.i
+
+.PHONY : countString.i
+
+# target to preprocess a source file
+countString.cpp.i:
+	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/countString.cpp.i
+.PHONY : countString.cpp.i
+
+countString.s: countString.cpp.s
+
+.PHONY : countString.s
+
+# target to generate assembly for a file
+countString.cpp.s:
+	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/countString.cpp.s
+.PHONY : countString.cpp.s
 
 hello.o: hello.cpp.o
 
@@ -309,6 +362,60 @@ score2.cpp.s:
 	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/score2.cpp.s
 .PHONY : score2.cpp.s
 
+score3.o: score3.cpp.o
+
+.PHONY : score3.o
+
+# target to build an object file
+score3.cpp.o:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/score3.cpp.o
+.PHONY : score3.cpp.o
+
+score3.i: score3.cpp.i
+
+.PHONY : score3.i
+
+# target to preprocess a source file
+score3.cpp.i:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/score3.cpp.i
+.PHONY : score3.cpp.i
+
+score3.s: score3.cpp.s
+
+.PHONY : score3.s
+
+# target to generate assembly for a file
+score3.cpp.s:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/score3.cpp.s
+.PHONY : score3.cpp.s
+
+score4.o: score4.cpp.o
+
+.PHONY : score4.o
+
+# target to build an object file
+score4.cpp.o:
+	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/score4.cpp.o
+.PHONY : score4.cpp.o
+
+score4.i: score4.cpp.i
+
+.PHONY : score4.i
+
+# target to preprocess a source file
+score4.cpp.i:
+	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/score4.cpp.i
+.PHONY : score4.cpp.i
+
+score4.s: score4.cpp.s
+
+.PHONY : score4.s
+
+# target to generate assembly for a file
+score4.cpp.s:
+	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/score4.cpp.s
+.PHONY : score4.cpp.s
+
 warpGreeting.o: warpGreeting.cpp.o
 
 .PHONY : warpGreeting.o
@@ -363,33 +470,6 @@ warpGreeting2.cpp.s:
 	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/warpGreeting2.cpp.s
 .PHONY : warpGreeting2.cpp.s
 
-wordCount.o: wordCount.cpp.o
-
-.PHONY : wordCount.o
-
-# target to build an object file
-wordCount.cpp.o:
-	$(MAKE) -f CMakeFiles/wordCount.dir/build.make CMakeFiles/wordCount.dir/wordCount.cpp.o
-.PHONY : wordCount.cpp.o
-
-wordCount.i: wordCount.cpp.i
-
-.PHONY : wordCount.i
-
-# target to preprocess a source file
-wordCount.cpp.i:
-	$(MAKE) -f CMakeFiles/wordCount.dir/build.make CMakeFiles/wordCount.dir/wordCount.cpp.i
-.PHONY : wordCount.cpp.i
-
-wordCount.s: wordCount.cpp.s
-
-.PHONY : wordCount.s
-
-# target to generate assembly for a file
-wordCount.cpp.s:
-	$(MAKE) -f CMakeFiles/wordCount.dir/build.make CMakeFiles/wordCount.dir/wordCount.cpp.s
-.PHONY : wordCount.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -398,13 +478,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... wordCount"
+	@echo "... score4"
+	@echo "... countString"
 	@echo "... maxMinString"
 	@echo "... warpGreeting2"
 	@echo "... warpGreeting"
+	@echo "... score3"
 	@echo "... score"
 	@echo "... score2"
 	@echo "... hello"
+	@echo "... countString.o"
+	@echo "... countString.i"
+	@echo "... countString.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
@@ -417,15 +502,18 @@ help:
 	@echo "... score2.o"
 	@echo "... score2.i"
 	@echo "... score2.s"
+	@echo "... score3.o"
+	@echo "... score3.i"
+	@echo "... score3.s"
+	@echo "... score4.o"
+	@echo "... score4.i"
+	@echo "... score4.s"
 	@echo "... warpGreeting.o"
 	@echo "... warpGreeting.i"
 	@echo "... warpGreeting.s"
 	@echo "... warpGreeting2.o"
 	@echo "... warpGreeting2.i"
 	@echo "... warpGreeting2.s"
-	@echo "... wordCount.o"
-	@echo "... wordCount.i"
-	@echo "... wordCount.s"
 .PHONY : help
 
 

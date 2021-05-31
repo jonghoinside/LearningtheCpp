@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.16)
+project(accelerated)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(hello hello.cpp)
+add_executable(score score.cpp)
+add_executable(score2 score2.cpp)
+add_executable(warpGreeting warpGreeting.cpp)
+add_executable(warpGreeting2 warpGreeting2.cpp)
+add_executable(maxMinString maxMinString.cpp)
+add_executable(countString countString.cpp)
+add_executable(score3 score3.cpp)
+add_executable(score4 score4.cpp score.dat)
