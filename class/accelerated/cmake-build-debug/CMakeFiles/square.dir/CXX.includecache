@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/square.cpp
+iostream
+-
+vector
+-
+iomanip
+-
+

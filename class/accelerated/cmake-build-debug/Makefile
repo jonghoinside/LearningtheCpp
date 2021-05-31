@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated
+CMAKE_SOURCE_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug
+CMAKE_BINARY_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles" "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,82 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named score4
+# Target rules for targets named score2
 
 # Build rule for target.
-score4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score4
-.PHONY : score4
+score2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score2
+.PHONY : score2
 
 # fast build rule for target.
-score4/fast:
-	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/build
-.PHONY : score4/fast
-
-#=============================================================================
-# Target rules for targets named countString
-
-# Build rule for target.
-countString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 countString
-.PHONY : countString
-
-# fast build rule for target.
-countString/fast:
-	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/build
-.PHONY : countString/fast
-
-#=============================================================================
-# Target rules for targets named maxMinString
-
-# Build rule for target.
-maxMinString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maxMinString
-.PHONY : maxMinString
-
-# fast build rule for target.
-maxMinString/fast:
-	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/build
-.PHONY : maxMinString/fast
-
-#=============================================================================
-# Target rules for targets named warpGreeting2
-
-# Build rule for target.
-warpGreeting2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting2
-.PHONY : warpGreeting2
-
-# fast build rule for target.
-warpGreeting2/fast:
-	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/build
-.PHONY : warpGreeting2/fast
-
-#=============================================================================
-# Target rules for targets named warpGreeting
-
-# Build rule for target.
-warpGreeting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting
-.PHONY : warpGreeting
-
-# fast build rule for target.
-warpGreeting/fast:
-	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/build
-.PHONY : warpGreeting/fast
-
-#=============================================================================
-# Target rules for targets named score3
-
-# Build rule for target.
-score3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score3
-.PHONY : score3
-
-# fast build rule for target.
-score3/fast:
-	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/build
-.PHONY : score3/fast
+score2/fast:
+	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/build
+.PHONY : score2/fast
 
 #=============================================================================
 # Target rules for targets named score
@@ -202,17 +137,69 @@ score/fast:
 .PHONY : score/fast
 
 #=============================================================================
-# Target rules for targets named score2
+# Target rules for targets named score3
 
 # Build rule for target.
-score2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score2
-.PHONY : score2
+score3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score3
+.PHONY : score3
 
 # fast build rule for target.
-score2/fast:
-	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/build
-.PHONY : score2/fast
+score3/fast:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/build
+.PHONY : score3/fast
+
+#=============================================================================
+# Target rules for targets named square
+
+# Build rule for target.
+square: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 square
+.PHONY : square
+
+# fast build rule for target.
+square/fast:
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
+.PHONY : square/fast
+
+#=============================================================================
+# Target rules for targets named averageDouble
+
+# Build rule for target.
+averageDouble: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 averageDouble
+.PHONY : averageDouble
+
+# fast build rule for target.
+averageDouble/fast:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/build
+.PHONY : averageDouble/fast
+
+#=============================================================================
+# Target rules for targets named warpGreeting2
+
+# Build rule for target.
+warpGreeting2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting2
+.PHONY : warpGreeting2
+
+# fast build rule for target.
+warpGreeting2/fast:
+	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/build
+.PHONY : warpGreeting2/fast
+
+#=============================================================================
+# Target rules for targets named maxMinString
+
+# Build rule for target.
+maxMinString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxMinString
+.PHONY : maxMinString
+
+# fast build rule for target.
+maxMinString/fast:
+	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/build
+.PHONY : maxMinString/fast
 
 #=============================================================================
 # Target rules for targets named hello
@@ -226,6 +213,85 @@ hello: cmake_check_build_system
 hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
+
+#=============================================================================
+# Target rules for targets named warpGreeting
+
+# Build rule for target.
+warpGreeting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting
+.PHONY : warpGreeting
+
+# fast build rule for target.
+warpGreeting/fast:
+	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/build
+.PHONY : warpGreeting/fast
+
+#=============================================================================
+# Target rules for targets named countString
+
+# Build rule for target.
+countString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countString
+.PHONY : countString
+
+# fast build rule for target.
+countString/fast:
+	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/build
+.PHONY : countString/fast
+
+#=============================================================================
+# Target rules for targets named score4
+
+# Build rule for target.
+score4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score4
+.PHONY : score4
+
+# fast build rule for target.
+score4/fast:
+	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/build
+.PHONY : score4/fast
+
+#=============================================================================
+# Target rules for targets named countWord
+
+# Build rule for target.
+countWord: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countWord
+.PHONY : countWord
+
+# fast build rule for target.
+countWord/fast:
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/build
+.PHONY : countWord/fast
+
+averageDouble.o: averageDouble.cpp.o
+
+.PHONY : averageDouble.o
+
+# target to build an object file
+averageDouble.cpp.o:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/averageDouble.cpp.o
+.PHONY : averageDouble.cpp.o
+
+averageDouble.i: averageDouble.cpp.i
+
+.PHONY : averageDouble.i
+
+# target to preprocess a source file
+averageDouble.cpp.i:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/averageDouble.cpp.i
+.PHONY : averageDouble.cpp.i
+
+averageDouble.s: averageDouble.cpp.s
+
+.PHONY : averageDouble.s
+
+# target to generate assembly for a file
+averageDouble.cpp.s:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/averageDouble.cpp.s
+.PHONY : averageDouble.cpp.s
 
 countString.o: countString.cpp.o
 
@@ -253,6 +319,33 @@ countString.s: countString.cpp.s
 countString.cpp.s:
 	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/countString.cpp.s
 .PHONY : countString.cpp.s
+
+countWord.o: countWord.cpp.o
+
+.PHONY : countWord.o
+
+# target to build an object file
+countWord.cpp.o:
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/countWord.cpp.o
+.PHONY : countWord.cpp.o
+
+countWord.i: countWord.cpp.i
+
+.PHONY : countWord.i
+
+# target to preprocess a source file
+countWord.cpp.i:
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/countWord.cpp.i
+.PHONY : countWord.cpp.i
+
+countWord.s: countWord.cpp.s
+
+.PHONY : countWord.s
+
+# target to generate assembly for a file
+countWord.cpp.s:
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/countWord.cpp.s
+.PHONY : countWord.cpp.s
 
 hello.o: hello.cpp.o
 
@@ -416,6 +509,33 @@ score4.cpp.s:
 	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/score4.cpp.s
 .PHONY : score4.cpp.s
 
+square.o: square.cpp.o
+
+.PHONY : square.o
+
+# target to build an object file
+square.cpp.o:
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.o
+.PHONY : square.cpp.o
+
+square.i: square.cpp.i
+
+.PHONY : square.i
+
+# target to preprocess a source file
+square.cpp.i:
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.i
+.PHONY : square.cpp.i
+
+square.s: square.cpp.s
+
+.PHONY : square.s
+
+# target to generate assembly for a file
+square.cpp.s:
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.s
+.PHONY : square.cpp.s
+
 warpGreeting.o: warpGreeting.cpp.o
 
 .PHONY : warpGreeting.o
@@ -476,20 +596,29 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... score2"
+	@echo "... score"
+	@echo "... score3"
+	@echo "... square"
+	@echo "... averageDouble"
+	@echo "... warpGreeting2"
+	@echo "... maxMinString"
+	@echo "... hello"
+	@echo "... warpGreeting"
+	@echo "... countString"
+	@echo "... score4"
+	@echo "... countWord"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... score4"
-	@echo "... countString"
-	@echo "... maxMinString"
-	@echo "... warpGreeting2"
-	@echo "... warpGreeting"
-	@echo "... score3"
-	@echo "... score"
-	@echo "... score2"
-	@echo "... hello"
+	@echo "... averageDouble.o"
+	@echo "... averageDouble.i"
+	@echo "... averageDouble.s"
 	@echo "... countString.o"
 	@echo "... countString.i"
 	@echo "... countString.s"
+	@echo "... countWord.o"
+	@echo "... countWord.i"
+	@echo "... countWord.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
@@ -508,6 +637,9 @@ help:
 	@echo "... score4.o"
 	@echo "... score4.i"
 	@echo "... score4.s"
+	@echo "... square.o"
+	@echo "... square.i"
+	@echo "... square.s"
 	@echo "... warpGreeting.o"
 	@echo "... warpGreeting.i"
 	@echo "... warpGreeting.s"

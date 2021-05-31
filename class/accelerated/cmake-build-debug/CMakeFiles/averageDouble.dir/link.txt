@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/averageDouble.dir/averageDouble.cpp.o  -o averageDouble 
