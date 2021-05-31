@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/score2.dir/score2.cpp.o  -o score2 

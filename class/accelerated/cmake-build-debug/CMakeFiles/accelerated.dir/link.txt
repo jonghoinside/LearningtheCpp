@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/accelerated.dir/hello.cpp.o  -o accelerated 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/maxMinString.dir/maxMinString.cpp.o  -o maxMinString 
