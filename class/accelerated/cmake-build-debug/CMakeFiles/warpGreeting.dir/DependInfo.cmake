@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/warpGreeting.cpp" "/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/warpGreeting.dir/warpGreeting.cpp.o"
+  "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/warpGreeting.cpp" "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/warpGreeting.dir/warpGreeting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

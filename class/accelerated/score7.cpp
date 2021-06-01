@@ -31,6 +31,8 @@ struct Student_info {
     vector<double> homework;
 };
 
+typedef vector<Student_info> container;
+
 double median(vector<double>& vec) {
     sort(vec.begin(), vec.end());
     const int mid = vec.size() / 2;
@@ -131,11 +133,11 @@ bool fgrade(const Student_info& s) {
 //    return fail;
 //}
 
-list<Student_info> extract_fails(list<Student_info>& students) {
-    list<Student_info> fail;
+container extract_fails(container& students) {
+    container fail;
 
-    typedef list<Student_info>::iterator list_iter;
-    for(list_iter iter = students.begin(); iter != students.end(); ) {
+    typedef container::iterator container_iter;
+    for(container_iter iter = students.begin(); iter != students.end(); ) {
         if (fgrade(*iter)) {
             fail.push_back(*iter);
             iter = students.erase(iter);
@@ -147,7 +149,7 @@ list<Student_info> extract_fails(list<Student_info>& students) {
 }
 
 int main() {
-    list<Student_info> students;
+    container students;
 
 //    int maxLen = 0;
     string::size_type maxLen = 0;
@@ -158,13 +160,13 @@ int main() {
     }
 
 //    sort(students.begin(), students.end(), compare);
-    students.sort(compare);
+//    students.sort(compare);
 
-    const list<Student_info> fails = extract_fails(students);
+    const container fails = extract_fails(students);
 
     cout << "pass list" << endl;
-    typedef list<Student_info>::const_iterator list_citer;
-    for (list_citer iter = students.begin(); iter != students.end(); ++iter ) {
+    typedef container::const_iterator container_citer;
+    for (container_citer iter = students.begin(); iter != students.end(); ++iter ) {
         cout << iter->name << string(maxLen - iter->name.size() + 1, ' ');
         try {
             std::streamsize prec = cout.precision();
@@ -178,7 +180,7 @@ int main() {
     }
 
     cout << endl << "fail list" << endl;
-    for (list_citer iter = fails.begin(); iter != fails.end(); ++iter) {
+    for (container_citer iter = fails.begin(); iter != fails.end(); ++iter) {
         cout << iter->name << string(maxLen - iter->name.size() + 1, ' ');
         try {
             std::streamsize prec = cout.precision();

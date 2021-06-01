@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated
+CMAKE_SOURCE_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug
+CMAKE_BINARY_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles" "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,19 @@ square/fast:
 .PHONY : square/fast
 
 #=============================================================================
+# Target rules for targets named split2
+
+# Build rule for target.
+split2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 split2
+.PHONY : split2
+
+# fast build rule for target.
+split2/fast:
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/build
+.PHONY : split2/fast
+
+#=============================================================================
 # Target rules for targets named score2
 
 # Build rule for target.
@@ -213,6 +226,19 @@ warpGreeting2: cmake_check_build_system
 warpGreeting2/fast:
 	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/build
 .PHONY : warpGreeting2/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 #=============================================================================
 # Target rules for targets named maxMinString
@@ -669,6 +695,33 @@ split.cpp.s:
 	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/split.cpp.s
 .PHONY : split.cpp.s
 
+split2.o: split2.cpp.o
+
+.PHONY : split2.o
+
+# target to build an object file
+split2.cpp.o:
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/split2.cpp.o
+.PHONY : split2.cpp.o
+
+split2.i: split2.cpp.i
+
+.PHONY : split2.i
+
+# target to preprocess a source file
+split2.cpp.i:
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/split2.cpp.i
+.PHONY : split2.cpp.i
+
+split2.s: split2.cpp.s
+
+.PHONY : split2.s
+
+# target to generate assembly for a file
+split2.cpp.s:
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/split2.cpp.s
+.PHONY : split2.cpp.s
+
 square.o: square.cpp.o
 
 .PHONY : square.o
@@ -695,6 +748,33 @@ square.s: square.cpp.s
 square.cpp.s:
 	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.s
 .PHONY : square.cpp.s
+
+test.o: test.c.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.s
+.PHONY : test.c.s
 
 warpGreeting.o: warpGreeting.cpp.o
 
@@ -756,16 +836,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... averageDouble"
 	@echo "... countWord"
 	@echo "... square"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... split2"
 	@echo "... score2"
 	@echo "... score3"
 	@echo "... score"
 	@echo "... score6"
 	@echo "... warpGreeting2"
+	@echo "... test"
 	@echo "... maxMinString"
 	@echo "... hello"
 	@echo "... warpGreeting"
@@ -813,9 +895,15 @@ help:
 	@echo "... split.o"
 	@echo "... split.i"
 	@echo "... split.s"
+	@echo "... split2.o"
+	@echo "... split2.i"
+	@echo "... split2.s"
 	@echo "... square.o"
 	@echo "... square.i"
 	@echo "... square.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 	@echo "... warpGreeting.o"
 	@echo "... warpGreeting.i"
 	@echo "... warpGreeting.s"

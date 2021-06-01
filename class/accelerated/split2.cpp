@@ -1,4 +1,4 @@
-split.cpp//
+//
 // Created by user on 2021-06-01.
 //
 
@@ -7,6 +7,7 @@ split.cpp//
 #include <string>
 #include <cctype>
 #include <algorithm>
+#include <iomanip>
 
 using namespace std;
 
@@ -46,8 +47,12 @@ vector<string> frame(const vector<string>& words) {
 
     result.push_back(border);
     typedef vector<string>::const_iterator vec_iter;
-    for (vec_iter iter = words.begin(); iter != words.end(); ++iter)
-        result.push_back("* " + *iter + string(maxLen - iter->size(), ' ') + " *");
+    for (vec_iter iter = words.begin(); iter != words.end(); ++iter) {
+        int leftSpace, rightSpace;
+        leftSpace = (maxLen - iter->size()) / 2;
+        rightSpace = maxLen - iter->size() - leftSpace;
+        result.push_back("* " + string(leftSpace, ' ') + *iter + string(rightSpace, ' ') + " *");
+    }
     result.push_back(border);
     return result;
 }
