@@ -48,17 +48,21 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/practice1.dir/DependInfo.cmake"
+  "CMakeFiles/testAlgorithm.dir/DependInfo.cmake"
   "CMakeFiles/averageDouble.dir/DependInfo.cmake"
   "CMakeFiles/countWord.dir/DependInfo.cmake"
   "CMakeFiles/square.dir/DependInfo.cmake"
   "CMakeFiles/split2.dir/DependInfo.cmake"
   "CMakeFiles/score2.dir/DependInfo.cmake"
   "CMakeFiles/score3.dir/DependInfo.cmake"
+  "CMakeFiles/testString.dir/DependInfo.cmake"
   "CMakeFiles/score.dir/DependInfo.cmake"
   "CMakeFiles/score6.dir/DependInfo.cmake"
   "CMakeFiles/warpGreeting2.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/maxMinString.dir/DependInfo.cmake"
+  "CMakeFiles/testVector.dir/DependInfo.cmake"
   "CMakeFiles/hello.dir/DependInfo.cmake"
   "CMakeFiles/warpGreeting.dir/DependInfo.cmake"
   "CMakeFiles/countString.dir/DependInfo.cmake"

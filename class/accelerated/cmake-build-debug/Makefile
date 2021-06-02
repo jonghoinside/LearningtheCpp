@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated"
+CMAKE_SOURCE_DIR = /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug"
+CMAKE_BINARY_DIR = /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles" "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named practice1
+
+# Build rule for target.
+practice1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practice1
+.PHONY : practice1
+
+# fast build rule for target.
+practice1/fast:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/build
+.PHONY : practice1/fast
+
+#=============================================================================
+# Target rules for targets named testAlgorithm
+
+# Build rule for target.
+testAlgorithm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm
+.PHONY : testAlgorithm
+
+# fast build rule for target.
+testAlgorithm/fast:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
+.PHONY : testAlgorithm/fast
 
 #=============================================================================
 # Target rules for targets named averageDouble
@@ -189,6 +215,19 @@ score3/fast:
 .PHONY : score3/fast
 
 #=============================================================================
+# Target rules for targets named testString
+
+# Build rule for target.
+testString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testString
+.PHONY : testString
+
+# fast build rule for target.
+testString/fast:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/build
+.PHONY : testString/fast
+
+#=============================================================================
 # Target rules for targets named score
 
 # Build rule for target.
@@ -252,6 +291,19 @@ maxMinString: cmake_check_build_system
 maxMinString/fast:
 	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/build
 .PHONY : maxMinString/fast
+
+#=============================================================================
+# Target rules for targets named testVector
+
+# Build rule for target.
+testVector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVector
+.PHONY : testVector
+
+# fast build rule for target.
+testVector/fast:
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/build
+.PHONY : testVector/fast
 
 #=============================================================================
 # Target rules for targets named hello
@@ -776,6 +828,141 @@ test.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.s
 .PHONY : test.c.s
 
+testAlgorithm.o: testAlgorithm.cpp.o
+
+.PHONY : testAlgorithm.o
+
+# target to build an object file
+testAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/testAlgorithm.cpp.o
+.PHONY : testAlgorithm.cpp.o
+
+testAlgorithm.i: testAlgorithm.cpp.i
+
+.PHONY : testAlgorithm.i
+
+# target to preprocess a source file
+testAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/testAlgorithm.cpp.i
+.PHONY : testAlgorithm.cpp.i
+
+testAlgorithm.s: testAlgorithm.cpp.s
+
+.PHONY : testAlgorithm.s
+
+# target to generate assembly for a file
+testAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/testAlgorithm.cpp.s
+.PHONY : testAlgorithm.cpp.s
+
+testC/main.o: testC/main.c.o
+
+.PHONY : testC/main.o
+
+# target to build an object file
+testC/main.c.o:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/testC/main.c.o
+.PHONY : testC/main.c.o
+
+testC/main.i: testC/main.c.i
+
+.PHONY : testC/main.i
+
+# target to preprocess a source file
+testC/main.c.i:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/testC/main.c.i
+.PHONY : testC/main.c.i
+
+testC/main.s: testC/main.c.s
+
+.PHONY : testC/main.s
+
+# target to generate assembly for a file
+testC/main.c.s:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/testC/main.c.s
+.PHONY : testC/main.c.s
+
+testC/solution.o: testC/solution.c.o
+
+.PHONY : testC/solution.o
+
+# target to build an object file
+testC/solution.c.o:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/testC/solution.c.o
+.PHONY : testC/solution.c.o
+
+testC/solution.i: testC/solution.c.i
+
+.PHONY : testC/solution.i
+
+# target to preprocess a source file
+testC/solution.c.i:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/testC/solution.c.i
+.PHONY : testC/solution.c.i
+
+testC/solution.s: testC/solution.c.s
+
+.PHONY : testC/solution.s
+
+# target to generate assembly for a file
+testC/solution.c.s:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/testC/solution.c.s
+.PHONY : testC/solution.c.s
+
+testString.o: testString.cpp.o
+
+.PHONY : testString.o
+
+# target to build an object file
+testString.cpp.o:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/testString.cpp.o
+.PHONY : testString.cpp.o
+
+testString.i: testString.cpp.i
+
+.PHONY : testString.i
+
+# target to preprocess a source file
+testString.cpp.i:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/testString.cpp.i
+.PHONY : testString.cpp.i
+
+testString.s: testString.cpp.s
+
+.PHONY : testString.s
+
+# target to generate assembly for a file
+testString.cpp.s:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/testString.cpp.s
+.PHONY : testString.cpp.s
+
+testVector.o: testVector.cpp.o
+
+.PHONY : testVector.o
+
+# target to build an object file
+testVector.cpp.o:
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/testVector.cpp.o
+.PHONY : testVector.cpp.o
+
+testVector.i: testVector.cpp.i
+
+.PHONY : testVector.i
+
+# target to preprocess a source file
+testVector.cpp.i:
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/testVector.cpp.i
+.PHONY : testVector.cpp.i
+
+testVector.s: testVector.cpp.s
+
+.PHONY : testVector.s
+
+# target to generate assembly for a file
+testVector.cpp.s:
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/testVector.cpp.s
+.PHONY : testVector.cpp.s
+
 warpGreeting.o: warpGreeting.cpp.o
 
 .PHONY : warpGreeting.o
@@ -836,6 +1023,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... practice1"
+	@echo "... testAlgorithm"
 	@echo "... averageDouble"
 	@echo "... countWord"
 	@echo "... square"
@@ -844,11 +1033,13 @@ help:
 	@echo "... split2"
 	@echo "... score2"
 	@echo "... score3"
+	@echo "... testString"
 	@echo "... score"
 	@echo "... score6"
 	@echo "... warpGreeting2"
 	@echo "... test"
 	@echo "... maxMinString"
+	@echo "... testVector"
 	@echo "... hello"
 	@echo "... warpGreeting"
 	@echo "... countString"
@@ -904,6 +1095,21 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... testAlgorithm.o"
+	@echo "... testAlgorithm.i"
+	@echo "... testAlgorithm.s"
+	@echo "... testC/main.o"
+	@echo "... testC/main.i"
+	@echo "... testC/main.s"
+	@echo "... testC/solution.o"
+	@echo "... testC/solution.i"
+	@echo "... testC/solution.s"
+	@echo "... testString.o"
+	@echo "... testString.i"
+	@echo "... testString.s"
+	@echo "... testVector.o"
+	@echo "... testVector.i"
+	@echo "... testVector.s"
 	@echo "... warpGreeting.o"
 	@echo "... warpGreeting.i"
 	@echo "... warpGreeting.s"
