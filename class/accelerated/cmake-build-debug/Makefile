@@ -124,6 +124,19 @@ practice1/fast:
 .PHONY : practice1/fast
 
 #=============================================================================
+# Target rules for targets named testAlgorithm2
+
+# Build rule for target.
+testAlgorithm2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm2
+.PHONY : testAlgorithm2
+
+# fast build rule for target.
+testAlgorithm2/fast:
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/build
+.PHONY : testAlgorithm2/fast
+
+#=============================================================================
 # Target rules for targets named testAlgorithm
 
 # Build rule for target.
@@ -137,17 +150,17 @@ testAlgorithm/fast:
 .PHONY : testAlgorithm/fast
 
 #=============================================================================
-# Target rules for targets named averageDouble
+# Target rules for targets named countWord2
 
 # Build rule for target.
-averageDouble: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 averageDouble
-.PHONY : averageDouble
+countWord2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countWord2
+.PHONY : countWord2
 
 # fast build rule for target.
-averageDouble/fast:
-	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/build
-.PHONY : averageDouble/fast
+countWord2/fast:
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/build
+.PHONY : countWord2/fast
 
 #=============================================================================
 # Target rules for targets named countWord
@@ -163,6 +176,32 @@ countWord/fast:
 .PHONY : countWord/fast
 
 #=============================================================================
+# Target rules for targets named averageDouble
+
+# Build rule for target.
+averageDouble: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 averageDouble
+.PHONY : averageDouble
+
+# fast build rule for target.
+averageDouble/fast:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/build
+.PHONY : averageDouble/fast
+
+#=============================================================================
+# Target rules for targets named crossReference
+
+# Build rule for target.
+crossReference: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 crossReference
+.PHONY : crossReference
+
+# fast build rule for target.
+crossReference/fast:
+	$(MAKE) -f CMakeFiles/crossReference.dir/build.make CMakeFiles/crossReference.dir/build
+.PHONY : crossReference/fast
+
+#=============================================================================
 # Target rules for targets named square
 
 # Build rule for target.
@@ -176,6 +215,19 @@ square/fast:
 .PHONY : square/fast
 
 #=============================================================================
+# Target rules for targets named split3
+
+# Build rule for target.
+split3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 split3
+.PHONY : split3
+
+# fast build rule for target.
+split3/fast:
+	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/build
+.PHONY : split3/fast
+
+#=============================================================================
 # Target rules for targets named split2
 
 # Build rule for target.
@@ -187,6 +239,32 @@ split2: cmake_check_build_system
 split2/fast:
 	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/build
 .PHONY : split2/fast
+
+#=============================================================================
+# Target rules for targets named palindrome
+
+# Build rule for target.
+palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palindrome
+.PHONY : palindrome
+
+# fast build rule for target.
+palindrome/fast:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
+.PHONY : palindrome/fast
+
+#=============================================================================
+# Target rules for targets named split
+
+# Build rule for target.
+split: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 split
+.PHONY : split
+
+# fast build rule for target.
+split/fast:
+	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/build
+.PHONY : split/fast
 
 #=============================================================================
 # Target rules for targets named score2
@@ -267,19 +345,6 @@ warpGreeting2/fast:
 .PHONY : warpGreeting2/fast
 
 #=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
 # Target rules for targets named maxMinString
 
 # Build rule for target.
@@ -358,19 +423,6 @@ score4/fast:
 .PHONY : score4/fast
 
 #=============================================================================
-# Target rules for targets named split
-
-# Build rule for target.
-split: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 split
-.PHONY : split
-
-# fast build rule for target.
-split/fast:
-	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/build
-.PHONY : split/fast
-
-#=============================================================================
 # Target rules for targets named score5
 
 # Build rule for target.
@@ -395,6 +447,19 @@ score7: cmake_check_build_system
 score7/fast:
 	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/build
 .PHONY : score7/fast
+
+#=============================================================================
+# Target rules for targets named score8
+
+# Build rule for target.
+score8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score8
+.PHONY : score8
+
+# fast build rule for target.
+score8/fast:
+	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/build
+.PHONY : score8/fast
 
 averageDouble.o: averageDouble.cpp.o
 
@@ -477,6 +542,60 @@ countWord.cpp.s:
 	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/countWord.cpp.s
 .PHONY : countWord.cpp.s
 
+countWord2.o: countWord2.cpp.o
+
+.PHONY : countWord2.o
+
+# target to build an object file
+countWord2.cpp.o:
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/countWord2.cpp.o
+.PHONY : countWord2.cpp.o
+
+countWord2.i: countWord2.cpp.i
+
+.PHONY : countWord2.i
+
+# target to preprocess a source file
+countWord2.cpp.i:
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/countWord2.cpp.i
+.PHONY : countWord2.cpp.i
+
+countWord2.s: countWord2.cpp.s
+
+.PHONY : countWord2.s
+
+# target to generate assembly for a file
+countWord2.cpp.s:
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/countWord2.cpp.s
+.PHONY : countWord2.cpp.s
+
+crossReference.o: crossReference.cpp.o
+
+.PHONY : crossReference.o
+
+# target to build an object file
+crossReference.cpp.o:
+	$(MAKE) -f CMakeFiles/crossReference.dir/build.make CMakeFiles/crossReference.dir/crossReference.cpp.o
+.PHONY : crossReference.cpp.o
+
+crossReference.i: crossReference.cpp.i
+
+.PHONY : crossReference.i
+
+# target to preprocess a source file
+crossReference.cpp.i:
+	$(MAKE) -f CMakeFiles/crossReference.dir/build.make CMakeFiles/crossReference.dir/crossReference.cpp.i
+.PHONY : crossReference.cpp.i
+
+crossReference.s: crossReference.cpp.s
+
+.PHONY : crossReference.s
+
+# target to generate assembly for a file
+crossReference.cpp.s:
+	$(MAKE) -f CMakeFiles/crossReference.dir/build.make CMakeFiles/crossReference.dir/crossReference.cpp.s
+.PHONY : crossReference.cpp.s
+
 hello.o: hello.cpp.o
 
 .PHONY : hello.o
@@ -530,6 +649,33 @@ maxMinString.s: maxMinString.cpp.s
 maxMinString.cpp.s:
 	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/maxMinString.cpp.s
 .PHONY : maxMinString.cpp.s
+
+palindrome.o: palindrome.cpp.o
+
+.PHONY : palindrome.o
+
+# target to build an object file
+palindrome.cpp.o:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/palindrome.cpp.o
+.PHONY : palindrome.cpp.o
+
+palindrome.i: palindrome.cpp.i
+
+.PHONY : palindrome.i
+
+# target to preprocess a source file
+palindrome.cpp.i:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/palindrome.cpp.i
+.PHONY : palindrome.cpp.i
+
+palindrome.s: palindrome.cpp.s
+
+.PHONY : palindrome.s
+
+# target to generate assembly for a file
+palindrome.cpp.s:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/palindrome.cpp.s
+.PHONY : palindrome.cpp.s
 
 score.o: score.cpp.o
 
@@ -720,6 +866,33 @@ score7.cpp.s:
 	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/score7.cpp.s
 .PHONY : score7.cpp.s
 
+score8.o: score8.cpp.o
+
+.PHONY : score8.o
+
+# target to build an object file
+score8.cpp.o:
+	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/score8.cpp.o
+.PHONY : score8.cpp.o
+
+score8.i: score8.cpp.i
+
+.PHONY : score8.i
+
+# target to preprocess a source file
+score8.cpp.i:
+	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/score8.cpp.i
+.PHONY : score8.cpp.i
+
+score8.s: score8.cpp.s
+
+.PHONY : score8.s
+
+# target to generate assembly for a file
+score8.cpp.s:
+	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/score8.cpp.s
+.PHONY : score8.cpp.s
+
 split.o: split.cpp.o
 
 .PHONY : split.o
@@ -774,6 +947,33 @@ split2.cpp.s:
 	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/split2.cpp.s
 .PHONY : split2.cpp.s
 
+split3.o: split3.cpp.o
+
+.PHONY : split3.o
+
+# target to build an object file
+split3.cpp.o:
+	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/split3.cpp.o
+.PHONY : split3.cpp.o
+
+split3.i: split3.cpp.i
+
+.PHONY : split3.i
+
+# target to preprocess a source file
+split3.cpp.i:
+	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/split3.cpp.i
+.PHONY : split3.cpp.i
+
+split3.s: split3.cpp.s
+
+.PHONY : split3.s
+
+# target to generate assembly for a file
+split3.cpp.s:
+	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/split3.cpp.s
+.PHONY : split3.cpp.s
+
 square.o: square.cpp.o
 
 .PHONY : square.o
@@ -801,33 +1001,6 @@ square.cpp.s:
 	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/square.cpp.s
 .PHONY : square.cpp.s
 
-test.o: test.c.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.o
-.PHONY : test.c.o
-
-test.i: test.c.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.i
-.PHONY : test.c.i
-
-test.s: test.c.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.s
-.PHONY : test.c.s
-
 testAlgorithm.o: testAlgorithm.cpp.o
 
 .PHONY : testAlgorithm.o
@@ -854,6 +1027,33 @@ testAlgorithm.s: testAlgorithm.cpp.s
 testAlgorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/testAlgorithm.cpp.s
 .PHONY : testAlgorithm.cpp.s
+
+testAlgorithm2.o: testAlgorithm2.cpp.o
+
+.PHONY : testAlgorithm2.o
+
+# target to build an object file
+testAlgorithm2.cpp.o:
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/testAlgorithm2.cpp.o
+.PHONY : testAlgorithm2.cpp.o
+
+testAlgorithm2.i: testAlgorithm2.cpp.i
+
+.PHONY : testAlgorithm2.i
+
+# target to preprocess a source file
+testAlgorithm2.cpp.i:
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/testAlgorithm2.cpp.i
+.PHONY : testAlgorithm2.cpp.i
+
+testAlgorithm2.s: testAlgorithm2.cpp.s
+
+.PHONY : testAlgorithm2.s
+
+# target to generate assembly for a file
+testAlgorithm2.cpp.s:
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/testAlgorithm2.cpp.s
+.PHONY : testAlgorithm2.cpp.s
 
 testC/main.o: testC/main.c.o
 
@@ -1024,29 +1224,34 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... practice1"
+	@echo "... testAlgorithm2"
 	@echo "... testAlgorithm"
-	@echo "... averageDouble"
+	@echo "... countWord2"
 	@echo "... countWord"
+	@echo "... averageDouble"
+	@echo "... crossReference"
 	@echo "... square"
+	@echo "... split3"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... split2"
+	@echo "... palindrome"
+	@echo "... split"
 	@echo "... score2"
 	@echo "... score3"
 	@echo "... testString"
 	@echo "... score"
 	@echo "... score6"
 	@echo "... warpGreeting2"
-	@echo "... test"
 	@echo "... maxMinString"
 	@echo "... testVector"
 	@echo "... hello"
 	@echo "... warpGreeting"
 	@echo "... countString"
 	@echo "... score4"
-	@echo "... split"
 	@echo "... score5"
 	@echo "... score7"
+	@echo "... score8"
 	@echo "... averageDouble.o"
 	@echo "... averageDouble.i"
 	@echo "... averageDouble.s"
@@ -1056,12 +1261,21 @@ help:
 	@echo "... countWord.o"
 	@echo "... countWord.i"
 	@echo "... countWord.s"
+	@echo "... countWord2.o"
+	@echo "... countWord2.i"
+	@echo "... countWord2.s"
+	@echo "... crossReference.o"
+	@echo "... crossReference.i"
+	@echo "... crossReference.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
 	@echo "... maxMinString.o"
 	@echo "... maxMinString.i"
 	@echo "... maxMinString.s"
+	@echo "... palindrome.o"
+	@echo "... palindrome.i"
+	@echo "... palindrome.s"
 	@echo "... score.o"
 	@echo "... score.i"
 	@echo "... score.s"
@@ -1083,21 +1297,27 @@ help:
 	@echo "... score7.o"
 	@echo "... score7.i"
 	@echo "... score7.s"
+	@echo "... score8.o"
+	@echo "... score8.i"
+	@echo "... score8.s"
 	@echo "... split.o"
 	@echo "... split.i"
 	@echo "... split.s"
 	@echo "... split2.o"
 	@echo "... split2.i"
 	@echo "... split2.s"
+	@echo "... split3.o"
+	@echo "... split3.i"
+	@echo "... split3.s"
 	@echo "... square.o"
 	@echo "... square.i"
 	@echo "... square.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 	@echo "... testAlgorithm.o"
 	@echo "... testAlgorithm.i"
 	@echo "... testAlgorithm.s"
+	@echo "... testAlgorithm2.o"
+	@echo "... testAlgorithm2.i"
+	@echo "... testAlgorithm2.s"
 	@echo "... testC/main.o"
 	@echo "... testC/main.i"
 	@echo "... testC/main.s"
