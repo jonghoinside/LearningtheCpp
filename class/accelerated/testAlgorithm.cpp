@@ -88,7 +88,7 @@ int main() {
     vector<int>::iterator iter2 = remove(nums1.begin(), nums1.end(), 3);
     remove(nums1.begin(), nums1.end(), 6);
 
-//    remove_if(nums1.begin(), nums1.end(), isEven);
+//    nums1.erase(remove_if(nums1.begin(), nums1.end(), isEven), nums1.end());
 
     for(vec_iter iter = nums1.cbegin(); iter < nums1.cend(); ++iter)
         cout << *iter << " ";
