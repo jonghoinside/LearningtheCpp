@@ -111,329 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named practice1
+# Target rules for targets named main_split
 
 # Build rule for target.
-practice1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 practice1
-.PHONY : practice1
+main_split: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_split
+.PHONY : main_split
 
 # fast build rule for target.
-practice1/fast:
-	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/build
-.PHONY : practice1/fast
-
-#=============================================================================
-# Target rules for targets named testAlgorithm2
-
-# Build rule for target.
-testAlgorithm2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm2
-.PHONY : testAlgorithm2
-
-# fast build rule for target.
-testAlgorithm2/fast:
-	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/build
-.PHONY : testAlgorithm2/fast
-
-#=============================================================================
-# Target rules for targets named testAlgorithm
-
-# Build rule for target.
-testAlgorithm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm
-.PHONY : testAlgorithm
-
-# fast build rule for target.
-testAlgorithm/fast:
-	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
-.PHONY : testAlgorithm/fast
-
-#=============================================================================
-# Target rules for targets named countWord2
-
-# Build rule for target.
-countWord2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 countWord2
-.PHONY : countWord2
-
-# fast build rule for target.
-countWord2/fast:
-	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/build
-.PHONY : countWord2/fast
-
-#=============================================================================
-# Target rules for targets named countWord
-
-# Build rule for target.
-countWord: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 countWord
-.PHONY : countWord
-
-# fast build rule for target.
-countWord/fast:
-	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/build
-.PHONY : countWord/fast
-
-#=============================================================================
-# Target rules for targets named averageDouble
-
-# Build rule for target.
-averageDouble: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 averageDouble
-.PHONY : averageDouble
-
-# fast build rule for target.
-averageDouble/fast:
-	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/build
-.PHONY : averageDouble/fast
-
-#=============================================================================
-# Target rules for targets named crossReference
-
-# Build rule for target.
-crossReference: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 crossReference
-.PHONY : crossReference
-
-# fast build rule for target.
-crossReference/fast:
-	$(MAKE) -f CMakeFiles/crossReference.dir/build.make CMakeFiles/crossReference.dir/build
-.PHONY : crossReference/fast
-
-#=============================================================================
-# Target rules for targets named square
-
-# Build rule for target.
-square: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 square
-.PHONY : square
-
-# fast build rule for target.
-square/fast:
-	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
-.PHONY : square/fast
-
-#=============================================================================
-# Target rules for targets named split3
-
-# Build rule for target.
-split3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 split3
-.PHONY : split3
-
-# fast build rule for target.
-split3/fast:
-	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/build
-.PHONY : split3/fast
-
-#=============================================================================
-# Target rules for targets named split2
-
-# Build rule for target.
-split2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 split2
-.PHONY : split2
-
-# fast build rule for target.
-split2/fast:
-	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/build
-.PHONY : split2/fast
-
-#=============================================================================
-# Target rules for targets named palindrome
-
-# Build rule for target.
-palindrome: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 palindrome
-.PHONY : palindrome
-
-# fast build rule for target.
-palindrome/fast:
-	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
-.PHONY : palindrome/fast
-
-#=============================================================================
-# Target rules for targets named split
-
-# Build rule for target.
-split: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 split
-.PHONY : split
-
-# fast build rule for target.
-split/fast:
-	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/build
-.PHONY : split/fast
-
-#=============================================================================
-# Target rules for targets named score2
-
-# Build rule for target.
-score2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score2
-.PHONY : score2
-
-# fast build rule for target.
-score2/fast:
-	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/build
-.PHONY : score2/fast
-
-#=============================================================================
-# Target rules for targets named score3
-
-# Build rule for target.
-score3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score3
-.PHONY : score3
-
-# fast build rule for target.
-score3/fast:
-	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/build
-.PHONY : score3/fast
-
-#=============================================================================
-# Target rules for targets named testString
-
-# Build rule for target.
-testString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testString
-.PHONY : testString
-
-# fast build rule for target.
-testString/fast:
-	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/build
-.PHONY : testString/fast
-
-#=============================================================================
-# Target rules for targets named score
-
-# Build rule for target.
-score: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score
-.PHONY : score
-
-# fast build rule for target.
-score/fast:
-	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/build
-.PHONY : score/fast
-
-#=============================================================================
-# Target rules for targets named score6
-
-# Build rule for target.
-score6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score6
-.PHONY : score6
-
-# fast build rule for target.
-score6/fast:
-	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/build
-.PHONY : score6/fast
-
-#=============================================================================
-# Target rules for targets named warpGreeting2
-
-# Build rule for target.
-warpGreeting2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting2
-.PHONY : warpGreeting2
-
-# fast build rule for target.
-warpGreeting2/fast:
-	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/build
-.PHONY : warpGreeting2/fast
-
-#=============================================================================
-# Target rules for targets named maxMinString
-
-# Build rule for target.
-maxMinString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maxMinString
-.PHONY : maxMinString
-
-# fast build rule for target.
-maxMinString/fast:
-	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/build
-.PHONY : maxMinString/fast
-
-#=============================================================================
-# Target rules for targets named testVector
-
-# Build rule for target.
-testVector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testVector
-.PHONY : testVector
-
-# fast build rule for target.
-testVector/fast:
-	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/build
-.PHONY : testVector/fast
-
-#=============================================================================
-# Target rules for targets named hello
-
-# Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
-
-# fast build rule for target.
-hello/fast:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
-
-#=============================================================================
-# Target rules for targets named warpGreeting
-
-# Build rule for target.
-warpGreeting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting
-.PHONY : warpGreeting
-
-# fast build rule for target.
-warpGreeting/fast:
-	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/build
-.PHONY : warpGreeting/fast
-
-#=============================================================================
-# Target rules for targets named countString
-
-# Build rule for target.
-countString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 countString
-.PHONY : countString
-
-# fast build rule for target.
-countString/fast:
-	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/build
-.PHONY : countString/fast
-
-#=============================================================================
-# Target rules for targets named score4
-
-# Build rule for target.
-score4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score4
-.PHONY : score4
-
-# fast build rule for target.
-score4/fast:
-	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/build
-.PHONY : score4/fast
-
-#=============================================================================
-# Target rules for targets named score5
-
-# Build rule for target.
-score5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score5
-.PHONY : score5
-
-# fast build rule for target.
-score5/fast:
-	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/build
-.PHONY : score5/fast
+main_split/fast:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/build
+.PHONY : main_split/fast
 
 #=============================================================================
 # Target rules for targets named score7
@@ -449,6 +137,175 @@ score7/fast:
 .PHONY : score7/fast
 
 #=============================================================================
+# Target rules for targets named score5
+
+# Build rule for target.
+score5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score5
+.PHONY : score5
+
+# fast build rule for target.
+score5/fast:
+	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/build
+.PHONY : score5/fast
+
+#=============================================================================
+# Target rules for targets named testString
+
+# Build rule for target.
+testString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testString
+.PHONY : testString
+
+# fast build rule for target.
+testString/fast:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/build
+.PHONY : testString/fast
+
+#=============================================================================
+# Target rules for targets named score3
+
+# Build rule for target.
+score3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score3
+.PHONY : score3
+
+# fast build rule for target.
+score3/fast:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/build
+.PHONY : score3/fast
+
+#=============================================================================
+# Target rules for targets named score9
+
+# Build rule for target.
+score9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score9
+.PHONY : score9
+
+# fast build rule for target.
+score9/fast:
+	$(MAKE) -f CMakeFiles/score9.dir/build.make CMakeFiles/score9.dir/build
+.PHONY : score9/fast
+
+#=============================================================================
+# Target rules for targets named hello
+
+# Build rule for target.
+hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+.PHONY : hello/fast
+
+#=============================================================================
+# Target rules for targets named maxMinString
+
+# Build rule for target.
+maxMinString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxMinString
+.PHONY : maxMinString
+
+# fast build rule for target.
+maxMinString/fast:
+	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/build
+.PHONY : maxMinString/fast
+
+#=============================================================================
+# Target rules for targets named warpGreeting2
+
+# Build rule for target.
+warpGreeting2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting2
+.PHONY : warpGreeting2
+
+# fast build rule for target.
+warpGreeting2/fast:
+	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/build
+.PHONY : warpGreeting2/fast
+
+#=============================================================================
+# Target rules for targets named score2
+
+# Build rule for target.
+score2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score2
+.PHONY : score2
+
+# fast build rule for target.
+score2/fast:
+	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/build
+.PHONY : score2/fast
+
+#=============================================================================
+# Target rules for targets named median.cpp
+
+# Build rule for target.
+median.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 median.cpp
+.PHONY : median.cpp
+
+# fast build rule for target.
+median.cpp/fast:
+	$(MAKE) -f CMakeFiles/median.cpp.dir/build.make CMakeFiles/median.cpp.dir/build
+.PHONY : median.cpp/fast
+
+#=============================================================================
+# Target rules for targets named practice1
+
+# Build rule for target.
+practice1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practice1
+.PHONY : practice1
+
+# fast build rule for target.
+practice1/fast:
+	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/build
+.PHONY : practice1/fast
+
+#=============================================================================
+# Target rules for targets named split
+
+# Build rule for target.
+split: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 split
+.PHONY : split
+
+# fast build rule for target.
+split/fast:
+	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/build
+.PHONY : split/fast
+
+#=============================================================================
+# Target rules for targets named score6
+
+# Build rule for target.
+score6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score6
+.PHONY : score6
+
+# fast build rule for target.
+score6/fast:
+	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/build
+.PHONY : score6/fast
+
+#=============================================================================
+# Target rules for targets named palindrome
+
+# Build rule for target.
+palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palindrome
+.PHONY : palindrome
+
+# fast build rule for target.
+palindrome/fast:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
+.PHONY : palindrome/fast
+
+#=============================================================================
 # Target rules for targets named score8
 
 # Build rule for target.
@@ -460,6 +317,227 @@ score8: cmake_check_build_system
 score8/fast:
 	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/build
 .PHONY : score8/fast
+
+#=============================================================================
+# Target rules for targets named score
+
+# Build rule for target.
+score: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score
+.PHONY : score
+
+# fast build rule for target.
+score/fast:
+	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/build
+.PHONY : score/fast
+
+#=============================================================================
+# Target rules for targets named split2
+
+# Build rule for target.
+split2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 split2
+.PHONY : split2
+
+# fast build rule for target.
+split2/fast:
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/build
+.PHONY : split2/fast
+
+#=============================================================================
+# Target rules for targets named testVector
+
+# Build rule for target.
+testVector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testVector
+.PHONY : testVector
+
+# fast build rule for target.
+testVector/fast:
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/build
+.PHONY : testVector/fast
+
+#=============================================================================
+# Target rules for targets named split1
+
+# Build rule for target.
+split1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 split1
+.PHONY : split1
+
+# fast build rule for target.
+split1/fast:
+	$(MAKE) -f CMakeFiles/split1.dir/build.make CMakeFiles/split1.dir/build
+.PHONY : split1/fast
+
+#=============================================================================
+# Target rules for targets named find.cpp
+
+# Build rule for target.
+find.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 find.cpp
+.PHONY : find.cpp
+
+# fast build rule for target.
+find.cpp/fast:
+	$(MAKE) -f CMakeFiles/find.cpp.dir/build.make CMakeFiles/find.cpp.dir/build
+.PHONY : find.cpp/fast
+
+#=============================================================================
+# Target rules for targets named square
+
+# Build rule for target.
+square: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 square
+.PHONY : square
+
+# fast build rule for target.
+square/fast:
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
+.PHONY : square/fast
+
+#=============================================================================
+# Target rules for targets named crossReference
+
+# Build rule for target.
+crossReference: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 crossReference
+.PHONY : crossReference
+
+# fast build rule for target.
+crossReference/fast:
+	$(MAKE) -f CMakeFiles/crossReference.dir/build.make CMakeFiles/crossReference.dir/build
+.PHONY : crossReference/fast
+
+#=============================================================================
+# Target rules for targets named countString
+
+# Build rule for target.
+countString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countString
+.PHONY : countString
+
+# fast build rule for target.
+countString/fast:
+	$(MAKE) -f CMakeFiles/countString.dir/build.make CMakeFiles/countString.dir/build
+.PHONY : countString/fast
+
+#=============================================================================
+# Target rules for targets named averageDouble
+
+# Build rule for target.
+averageDouble: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 averageDouble
+.PHONY : averageDouble
+
+# fast build rule for target.
+averageDouble/fast:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/build
+.PHONY : averageDouble/fast
+
+#=============================================================================
+# Target rules for targets named practice8-2
+
+# Build rule for target.
+practice8-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practice8-2
+.PHONY : practice8-2
+
+# fast build rule for target.
+practice8-2/fast:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/build
+.PHONY : practice8-2/fast
+
+#=============================================================================
+# Target rules for targets named countWord
+
+# Build rule for target.
+countWord: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countWord
+.PHONY : countWord
+
+# fast build rule for target.
+countWord/fast:
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/build
+.PHONY : countWord/fast
+
+#=============================================================================
+# Target rules for targets named score4
+
+# Build rule for target.
+score4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score4
+.PHONY : score4
+
+# fast build rule for target.
+score4/fast:
+	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/build
+.PHONY : score4/fast
+
+#=============================================================================
+# Target rules for targets named countWord2
+
+# Build rule for target.
+countWord2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 countWord2
+.PHONY : countWord2
+
+# fast build rule for target.
+countWord2/fast:
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/build
+.PHONY : countWord2/fast
+
+#=============================================================================
+# Target rules for targets named score9_1
+
+# Build rule for target.
+score9_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score9_1
+.PHONY : score9_1
+
+# fast build rule for target.
+score9_1/fast:
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/build
+.PHONY : score9_1/fast
+
+#=============================================================================
+# Target rules for targets named testAlgorithm
+
+# Build rule for target.
+testAlgorithm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm
+.PHONY : testAlgorithm
+
+# fast build rule for target.
+testAlgorithm/fast:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
+.PHONY : testAlgorithm/fast
+
+#=============================================================================
+# Target rules for targets named warpGreeting
+
+# Build rule for target.
+warpGreeting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 warpGreeting
+.PHONY : warpGreeting
+
+# fast build rule for target.
+warpGreeting/fast:
+	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/build
+.PHONY : warpGreeting/fast
+
+#=============================================================================
+# Target rules for targets named testAlgorithm2
+
+# Build rule for target.
+testAlgorithm2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm2
+.PHONY : testAlgorithm2
+
+# fast build rule for target.
+testAlgorithm2/fast:
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/build
+.PHONY : testAlgorithm2/fast
 
 averageDouble.o: averageDouble.cpp.o
 
@@ -596,6 +674,33 @@ crossReference.cpp.s:
 	$(MAKE) -f CMakeFiles/crossReference.dir/build.make CMakeFiles/crossReference.dir/crossReference.cpp.s
 .PHONY : crossReference.cpp.s
 
+find.o: find.cpp.o
+
+.PHONY : find.o
+
+# target to build an object file
+find.cpp.o:
+	$(MAKE) -f CMakeFiles/find.cpp.dir/build.make CMakeFiles/find.cpp.dir/find.cpp.o
+.PHONY : find.cpp.o
+
+find.i: find.cpp.i
+
+.PHONY : find.i
+
+# target to preprocess a source file
+find.cpp.i:
+	$(MAKE) -f CMakeFiles/find.cpp.dir/build.make CMakeFiles/find.cpp.dir/find.cpp.i
+.PHONY : find.cpp.i
+
+find.s: find.cpp.s
+
+.PHONY : find.s
+
+# target to generate assembly for a file
+find.cpp.s:
+	$(MAKE) -f CMakeFiles/find.cpp.dir/build.make CMakeFiles/find.cpp.dir/find.cpp.s
+.PHONY : find.cpp.s
+
 hello.o: hello.cpp.o
 
 .PHONY : hello.o
@@ -650,6 +755,33 @@ maxMinString.cpp.s:
 	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/maxMinString.cpp.s
 .PHONY : maxMinString.cpp.s
 
+median.o: median.cpp.o
+
+.PHONY : median.o
+
+# target to build an object file
+median.cpp.o:
+	$(MAKE) -f CMakeFiles/median.cpp.dir/build.make CMakeFiles/median.cpp.dir/median.cpp.o
+.PHONY : median.cpp.o
+
+median.i: median.cpp.i
+
+.PHONY : median.i
+
+# target to preprocess a source file
+median.cpp.i:
+	$(MAKE) -f CMakeFiles/median.cpp.dir/build.make CMakeFiles/median.cpp.dir/median.cpp.i
+.PHONY : median.cpp.i
+
+median.s: median.cpp.s
+
+.PHONY : median.s
+
+# target to generate assembly for a file
+median.cpp.s:
+	$(MAKE) -f CMakeFiles/median.cpp.dir/build.make CMakeFiles/median.cpp.dir/median.cpp.s
+.PHONY : median.cpp.s
+
 palindrome.o: palindrome.cpp.o
 
 .PHONY : palindrome.o
@@ -676,6 +808,60 @@ palindrome.s: palindrome.cpp.s
 palindrome.cpp.s:
 	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/palindrome.cpp.s
 .PHONY : palindrome.cpp.s
+
+practice8-2/algorithm.o: practice8-2/algorithm.cpp.o
+
+.PHONY : practice8-2/algorithm.o
+
+# target to build an object file
+practice8-2/algorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/practice8-2/algorithm.cpp.o
+.PHONY : practice8-2/algorithm.cpp.o
+
+practice8-2/algorithm.i: practice8-2/algorithm.cpp.i
+
+.PHONY : practice8-2/algorithm.i
+
+# target to preprocess a source file
+practice8-2/algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/practice8-2/algorithm.cpp.i
+.PHONY : practice8-2/algorithm.cpp.i
+
+practice8-2/algorithm.s: practice8-2/algorithm.cpp.s
+
+.PHONY : practice8-2/algorithm.s
+
+# target to generate assembly for a file
+practice8-2/algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/practice8-2/algorithm.cpp.s
+.PHONY : practice8-2/algorithm.cpp.s
+
+practice8-2/main.o: practice8-2/main.cpp.o
+
+.PHONY : practice8-2/main.o
+
+# target to build an object file
+practice8-2/main.cpp.o:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/practice8-2/main.cpp.o
+.PHONY : practice8-2/main.cpp.o
+
+practice8-2/main.i: practice8-2/main.cpp.i
+
+.PHONY : practice8-2/main.i
+
+# target to preprocess a source file
+practice8-2/main.cpp.i:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/practice8-2/main.cpp.i
+.PHONY : practice8-2/main.cpp.i
+
+practice8-2/main.s: practice8-2/main.cpp.s
+
+.PHONY : practice8-2/main.s
+
+# target to generate assembly for a file
+practice8-2/main.cpp.s:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/practice8-2/main.cpp.s
+.PHONY : practice8-2/main.cpp.s
 
 score.o: score.cpp.o
 
@@ -893,6 +1079,60 @@ score8.cpp.s:
 	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/score8.cpp.s
 .PHONY : score8.cpp.s
 
+score9.o: score9.cpp.o
+
+.PHONY : score9.o
+
+# target to build an object file
+score9.cpp.o:
+	$(MAKE) -f CMakeFiles/score9.dir/build.make CMakeFiles/score9.dir/score9.cpp.o
+.PHONY : score9.cpp.o
+
+score9.i: score9.cpp.i
+
+.PHONY : score9.i
+
+# target to preprocess a source file
+score9.cpp.i:
+	$(MAKE) -f CMakeFiles/score9.dir/build.make CMakeFiles/score9.dir/score9.cpp.i
+.PHONY : score9.cpp.i
+
+score9.s: score9.cpp.s
+
+.PHONY : score9.s
+
+# target to generate assembly for a file
+score9.cpp.s:
+	$(MAKE) -f CMakeFiles/score9.dir/build.make CMakeFiles/score9.dir/score9.cpp.s
+.PHONY : score9.cpp.s
+
+score9_1.o: score9_1.cpp.o
+
+.PHONY : score9_1.o
+
+# target to build an object file
+score9_1.cpp.o:
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/score9_1.cpp.o
+.PHONY : score9_1.cpp.o
+
+score9_1.i: score9_1.cpp.i
+
+.PHONY : score9_1.i
+
+# target to preprocess a source file
+score9_1.cpp.i:
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/score9_1.cpp.i
+.PHONY : score9_1.cpp.i
+
+score9_1.s: score9_1.cpp.s
+
+.PHONY : score9_1.s
+
+# target to generate assembly for a file
+score9_1.cpp.s:
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/score9_1.cpp.s
+.PHONY : score9_1.cpp.s
+
 split.o: split.cpp.o
 
 .PHONY : split.o
@@ -919,6 +1159,60 @@ split.s: split.cpp.s
 split.cpp.s:
 	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/split.cpp.s
 .PHONY : split.cpp.s
+
+split1/main.o: split1/main.cpp.o
+
+.PHONY : split1/main.o
+
+# target to build an object file
+split1/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/split1/main.cpp.o
+.PHONY : split1/main.cpp.o
+
+split1/main.i: split1/main.cpp.i
+
+.PHONY : split1/main.i
+
+# target to preprocess a source file
+split1/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/split1/main.cpp.i
+.PHONY : split1/main.cpp.i
+
+split1/main.s: split1/main.cpp.s
+
+.PHONY : split1/main.s
+
+# target to generate assembly for a file
+split1/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/split1/main.cpp.s
+.PHONY : split1/main.cpp.s
+
+split1/split.o: split1/split.cpp.o
+
+.PHONY : split1/split.o
+
+# target to build an object file
+split1/split.cpp.o:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/split1/split.cpp.o
+.PHONY : split1/split.cpp.o
+
+split1/split.i: split1/split.cpp.i
+
+.PHONY : split1/split.i
+
+# target to preprocess a source file
+split1/split.cpp.i:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/split1/split.cpp.i
+.PHONY : split1/split.cpp.i
+
+split1/split.s: split1/split.cpp.s
+
+.PHONY : split1/split.s
+
+# target to generate assembly for a file
+split1/split.cpp.s:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/split1/split.cpp.s
+.PHONY : split1/split.cpp.s
 
 split2.o: split2.cpp.o
 
@@ -953,7 +1247,7 @@ split3.o: split3.cpp.o
 
 # target to build an object file
 split3.cpp.o:
-	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/split3.cpp.o
+	$(MAKE) -f CMakeFiles/split1.dir/build.make CMakeFiles/split1.dir/split3.cpp.o
 .PHONY : split3.cpp.o
 
 split3.i: split3.cpp.i
@@ -962,7 +1256,7 @@ split3.i: split3.cpp.i
 
 # target to preprocess a source file
 split3.cpp.i:
-	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/split3.cpp.i
+	$(MAKE) -f CMakeFiles/split1.dir/build.make CMakeFiles/split1.dir/split3.cpp.i
 .PHONY : split3.cpp.i
 
 split3.s: split3.cpp.s
@@ -971,7 +1265,7 @@ split3.s: split3.cpp.s
 
 # target to generate assembly for a file
 split3.cpp.s:
-	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/split3.cpp.s
+	$(MAKE) -f CMakeFiles/split1.dir/build.make CMakeFiles/split1.dir/split3.cpp.s
 .PHONY : split3.cpp.s
 
 square.o: square.cpp.o
@@ -1223,35 +1517,41 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... practice1"
-	@echo "... testAlgorithm2"
-	@echo "... testAlgorithm"
-	@echo "... countWord2"
-	@echo "... countWord"
-	@echo "... averageDouble"
-	@echo "... crossReference"
-	@echo "... square"
-	@echo "... split3"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... split2"
-	@echo "... palindrome"
-	@echo "... split"
-	@echo "... score2"
-	@echo "... score3"
-	@echo "... testString"
-	@echo "... score"
-	@echo "... score6"
-	@echo "... warpGreeting2"
-	@echo "... maxMinString"
-	@echo "... testVector"
-	@echo "... hello"
-	@echo "... warpGreeting"
-	@echo "... countString"
-	@echo "... score4"
-	@echo "... score5"
+	@echo "... main_split"
 	@echo "... score7"
+	@echo "... score5"
+	@echo "... testString"
+	@echo "... score3"
+	@echo "... score9"
+	@echo "... hello"
+	@echo "... maxMinString"
+	@echo "... warpGreeting2"
+	@echo "... score2"
+	@echo "... median.cpp"
+	@echo "... practice1"
+	@echo "... split"
+	@echo "... score6"
+	@echo "... palindrome"
 	@echo "... score8"
+	@echo "... score"
+	@echo "... split2"
+	@echo "... testVector"
+	@echo "... split1"
+	@echo "... find.cpp"
+	@echo "... square"
+	@echo "... crossReference"
+	@echo "... countString"
+	@echo "... averageDouble"
+	@echo "... practice8-2"
+	@echo "... countWord"
+	@echo "... score4"
+	@echo "... countWord2"
+	@echo "... score9_1"
+	@echo "... testAlgorithm"
+	@echo "... warpGreeting"
+	@echo "... testAlgorithm2"
 	@echo "... averageDouble.o"
 	@echo "... averageDouble.i"
 	@echo "... averageDouble.s"
@@ -1267,15 +1567,27 @@ help:
 	@echo "... crossReference.o"
 	@echo "... crossReference.i"
 	@echo "... crossReference.s"
+	@echo "... find.o"
+	@echo "... find.i"
+	@echo "... find.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
 	@echo "... maxMinString.o"
 	@echo "... maxMinString.i"
 	@echo "... maxMinString.s"
+	@echo "... median.o"
+	@echo "... median.i"
+	@echo "... median.s"
 	@echo "... palindrome.o"
 	@echo "... palindrome.i"
 	@echo "... palindrome.s"
+	@echo "... practice8-2/algorithm.o"
+	@echo "... practice8-2/algorithm.i"
+	@echo "... practice8-2/algorithm.s"
+	@echo "... practice8-2/main.o"
+	@echo "... practice8-2/main.i"
+	@echo "... practice8-2/main.s"
 	@echo "... score.o"
 	@echo "... score.i"
 	@echo "... score.s"
@@ -1300,9 +1612,21 @@ help:
 	@echo "... score8.o"
 	@echo "... score8.i"
 	@echo "... score8.s"
+	@echo "... score9.o"
+	@echo "... score9.i"
+	@echo "... score9.s"
+	@echo "... score9_1.o"
+	@echo "... score9_1.i"
+	@echo "... score9_1.s"
 	@echo "... split.o"
 	@echo "... split.i"
 	@echo "... split.s"
+	@echo "... split1/main.o"
+	@echo "... split1/main.i"
+	@echo "... split1/main.s"
+	@echo "... split1/split.o"
+	@echo "... split1/split.i"
+	@echo "... split1/split.s"
 	@echo "... split2.o"
 	@echo "... split2.i"
 	@echo "... split2.s"

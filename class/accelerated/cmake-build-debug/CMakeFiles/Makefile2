@@ -53,33 +53,39 @@ CMAKE_BINARY_DIR = /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/acceler
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/practice1.dir/all
-all: CMakeFiles/testAlgorithm2.dir/all
-all: CMakeFiles/testAlgorithm.dir/all
-all: CMakeFiles/countWord2.dir/all
-all: CMakeFiles/countWord.dir/all
-all: CMakeFiles/averageDouble.dir/all
-all: CMakeFiles/crossReference.dir/all
-all: CMakeFiles/square.dir/all
-all: CMakeFiles/split3.dir/all
-all: CMakeFiles/split2.dir/all
-all: CMakeFiles/palindrome.dir/all
-all: CMakeFiles/split.dir/all
-all: CMakeFiles/score2.dir/all
-all: CMakeFiles/score3.dir/all
-all: CMakeFiles/testString.dir/all
-all: CMakeFiles/score.dir/all
-all: CMakeFiles/score6.dir/all
-all: CMakeFiles/warpGreeting2.dir/all
-all: CMakeFiles/maxMinString.dir/all
-all: CMakeFiles/testVector.dir/all
-all: CMakeFiles/hello.dir/all
-all: CMakeFiles/warpGreeting.dir/all
-all: CMakeFiles/countString.dir/all
-all: CMakeFiles/score4.dir/all
-all: CMakeFiles/score5.dir/all
+all: CMakeFiles/main_split.dir/all
 all: CMakeFiles/score7.dir/all
+all: CMakeFiles/score5.dir/all
+all: CMakeFiles/testString.dir/all
+all: CMakeFiles/score3.dir/all
+all: CMakeFiles/score9.dir/all
+all: CMakeFiles/hello.dir/all
+all: CMakeFiles/maxMinString.dir/all
+all: CMakeFiles/warpGreeting2.dir/all
+all: CMakeFiles/score2.dir/all
+all: CMakeFiles/median.cpp.dir/all
+all: CMakeFiles/practice1.dir/all
+all: CMakeFiles/split.dir/all
+all: CMakeFiles/score6.dir/all
+all: CMakeFiles/palindrome.dir/all
 all: CMakeFiles/score8.dir/all
+all: CMakeFiles/score.dir/all
+all: CMakeFiles/split2.dir/all
+all: CMakeFiles/testVector.dir/all
+all: CMakeFiles/split1.dir/all
+all: CMakeFiles/find.cpp.dir/all
+all: CMakeFiles/square.dir/all
+all: CMakeFiles/crossReference.dir/all
+all: CMakeFiles/countString.dir/all
+all: CMakeFiles/averageDouble.dir/all
+all: CMakeFiles/practice8-2.dir/all
+all: CMakeFiles/countWord.dir/all
+all: CMakeFiles/score4.dir/all
+all: CMakeFiles/countWord2.dir/all
+all: CMakeFiles/score9_1.dir/all
+all: CMakeFiles/testAlgorithm.dir/all
+all: CMakeFiles/warpGreeting.dir/all
+all: CMakeFiles/testAlgorithm2.dir/all
 
 .PHONY : all
 
@@ -89,35 +95,338 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/practice1.dir/clean
-clean: CMakeFiles/testAlgorithm2.dir/clean
-clean: CMakeFiles/testAlgorithm.dir/clean
-clean: CMakeFiles/countWord2.dir/clean
-clean: CMakeFiles/countWord.dir/clean
-clean: CMakeFiles/averageDouble.dir/clean
-clean: CMakeFiles/crossReference.dir/clean
-clean: CMakeFiles/square.dir/clean
-clean: CMakeFiles/split3.dir/clean
-clean: CMakeFiles/split2.dir/clean
-clean: CMakeFiles/palindrome.dir/clean
-clean: CMakeFiles/split.dir/clean
-clean: CMakeFiles/score2.dir/clean
-clean: CMakeFiles/score3.dir/clean
-clean: CMakeFiles/testString.dir/clean
-clean: CMakeFiles/score.dir/clean
-clean: CMakeFiles/score6.dir/clean
-clean: CMakeFiles/warpGreeting2.dir/clean
-clean: CMakeFiles/maxMinString.dir/clean
-clean: CMakeFiles/testVector.dir/clean
-clean: CMakeFiles/hello.dir/clean
-clean: CMakeFiles/warpGreeting.dir/clean
-clean: CMakeFiles/countString.dir/clean
-clean: CMakeFiles/score4.dir/clean
-clean: CMakeFiles/score5.dir/clean
+clean: CMakeFiles/main_split.dir/clean
 clean: CMakeFiles/score7.dir/clean
+clean: CMakeFiles/score5.dir/clean
+clean: CMakeFiles/testString.dir/clean
+clean: CMakeFiles/score3.dir/clean
+clean: CMakeFiles/score9.dir/clean
+clean: CMakeFiles/hello.dir/clean
+clean: CMakeFiles/maxMinString.dir/clean
+clean: CMakeFiles/warpGreeting2.dir/clean
+clean: CMakeFiles/score2.dir/clean
+clean: CMakeFiles/median.cpp.dir/clean
+clean: CMakeFiles/practice1.dir/clean
+clean: CMakeFiles/split.dir/clean
+clean: CMakeFiles/score6.dir/clean
+clean: CMakeFiles/palindrome.dir/clean
 clean: CMakeFiles/score8.dir/clean
+clean: CMakeFiles/score.dir/clean
+clean: CMakeFiles/split2.dir/clean
+clean: CMakeFiles/testVector.dir/clean
+clean: CMakeFiles/split1.dir/clean
+clean: CMakeFiles/find.cpp.dir/clean
+clean: CMakeFiles/square.dir/clean
+clean: CMakeFiles/crossReference.dir/clean
+clean: CMakeFiles/countString.dir/clean
+clean: CMakeFiles/averageDouble.dir/clean
+clean: CMakeFiles/practice8-2.dir/clean
+clean: CMakeFiles/countWord.dir/clean
+clean: CMakeFiles/score4.dir/clean
+clean: CMakeFiles/countWord2.dir/clean
+clean: CMakeFiles/score9_1.dir/clean
+clean: CMakeFiles/testAlgorithm.dir/clean
+clean: CMakeFiles/warpGreeting.dir/clean
+clean: CMakeFiles/testAlgorithm2.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main_split.dir
+
+# All Build rule for target.
+CMakeFiles/main_split.dir/all:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/depend
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=15,16,17 "Built target main_split"
+.PHONY : CMakeFiles/main_split.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main_split.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main_split.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main_split.dir/rule
+
+# Convenience name for target.
+main_split: CMakeFiles/main_split.dir/rule
+
+.PHONY : main_split
+
+# clean rule for target.
+CMakeFiles/main_split.dir/clean:
+	$(MAKE) -f CMakeFiles/main_split.dir/build.make CMakeFiles/main_split.dir/clean
+.PHONY : CMakeFiles/main_split.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/score7.dir
+
+# All Build rule for target.
+CMakeFiles/score7.dir/all:
+	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/depend
+	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target score7"
+.PHONY : CMakeFiles/score7.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/score7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/score7.dir/rule
+
+# Convenience name for target.
+score7: CMakeFiles/score7.dir/rule
+
+.PHONY : score7
+
+# clean rule for target.
+CMakeFiles/score7.dir/clean:
+	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/clean
+.PHONY : CMakeFiles/score7.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/score5.dir
+
+# All Build rule for target.
+CMakeFiles/score5.dir/all:
+	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/depend
+	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target score5"
+.PHONY : CMakeFiles/score5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/score5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/score5.dir/rule
+
+# Convenience name for target.
+score5: CMakeFiles/score5.dir/rule
+
+.PHONY : score5
+
+# clean rule for target.
+CMakeFiles/score5.dir/clean:
+	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/clean
+.PHONY : CMakeFiles/score5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/testString.dir
+
+# All Build rule for target.
+CMakeFiles/testString.dir/all:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/depend
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target testString"
+.PHONY : CMakeFiles/testString.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/testString.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testString.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/testString.dir/rule
+
+# Convenience name for target.
+testString: CMakeFiles/testString.dir/rule
+
+.PHONY : testString
+
+# clean rule for target.
+CMakeFiles/testString.dir/clean:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/clean
+.PHONY : CMakeFiles/testString.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/score3.dir
+
+# All Build rule for target.
+CMakeFiles/score3.dir/all:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/depend
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target score3"
+.PHONY : CMakeFiles/score3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/score3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/score3.dir/rule
+
+# Convenience name for target.
+score3: CMakeFiles/score3.dir/rule
+
+.PHONY : score3
+
+# clean rule for target.
+CMakeFiles/score3.dir/clean:
+	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/clean
+.PHONY : CMakeFiles/score3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/score9.dir
+
+# All Build rule for target.
+CMakeFiles/score9.dir/all:
+	$(MAKE) -f CMakeFiles/score9.dir/build.make CMakeFiles/score9.dir/depend
+	$(MAKE) -f CMakeFiles/score9.dir/build.make CMakeFiles/score9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target score9"
+.PHONY : CMakeFiles/score9.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/score9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/score9.dir/rule
+
+# Convenience name for target.
+score9: CMakeFiles/score9.dir/rule
+
+.PHONY : score9
+
+# clean rule for target.
+CMakeFiles/score9.dir/clean:
+	$(MAKE) -f CMakeFiles/score9.dir/build.make CMakeFiles/score9.dir/clean
+.PHONY : CMakeFiles/score9.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello.dir
+
+# All Build rule for target.
+CMakeFiles/hello.dir/all:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target hello"
+.PHONY : CMakeFiles/hello.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello.dir/rule
+
+# Convenience name for target.
+hello: CMakeFiles/hello.dir/rule
+
+.PHONY : hello
+
+# clean rule for target.
+CMakeFiles/hello.dir/clean:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
+.PHONY : CMakeFiles/hello.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/maxMinString.dir
+
+# All Build rule for target.
+CMakeFiles/maxMinString.dir/all:
+	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/depend
+	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target maxMinString"
+.PHONY : CMakeFiles/maxMinString.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maxMinString.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maxMinString.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/maxMinString.dir/rule
+
+# Convenience name for target.
+maxMinString: CMakeFiles/maxMinString.dir/rule
+
+.PHONY : maxMinString
+
+# clean rule for target.
+CMakeFiles/maxMinString.dir/clean:
+	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/clean
+.PHONY : CMakeFiles/maxMinString.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/warpGreeting2.dir
+
+# All Build rule for target.
+CMakeFiles/warpGreeting2.dir/all:
+	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/depend
+	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target warpGreeting2"
+.PHONY : CMakeFiles/warpGreeting2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/warpGreeting2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/warpGreeting2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/warpGreeting2.dir/rule
+
+# Convenience name for target.
+warpGreeting2: CMakeFiles/warpGreeting2.dir/rule
+
+.PHONY : warpGreeting2
+
+# clean rule for target.
+CMakeFiles/warpGreeting2.dir/clean:
+	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/clean
+.PHONY : CMakeFiles/warpGreeting2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/score2.dir
+
+# All Build rule for target.
+CMakeFiles/score2.dir/all:
+	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/depend
+	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target score2"
+.PHONY : CMakeFiles/score2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/score2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/score2.dir/rule
+
+# Convenience name for target.
+score2: CMakeFiles/score2.dir/rule
+
+.PHONY : score2
+
+# clean rule for target.
+CMakeFiles/score2.dir/clean:
+	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/clean
+.PHONY : CMakeFiles/score2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/median.cpp.dir
+
+# All Build rule for target.
+CMakeFiles/median.cpp.dir/all:
+	$(MAKE) -f CMakeFiles/median.cpp.dir/build.make CMakeFiles/median.cpp.dir/depend
+	$(MAKE) -f CMakeFiles/median.cpp.dir/build.make CMakeFiles/median.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target median.cpp"
+.PHONY : CMakeFiles/median.cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/median.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/median.cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/median.cpp.dir/rule
+
+# Convenience name for target.
+median.cpp: CMakeFiles/median.cpp.dir/rule
+
+.PHONY : median.cpp
+
+# clean rule for target.
+CMakeFiles/median.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/median.cpp.dir/build.make CMakeFiles/median.cpp.dir/clean
+.PHONY : CMakeFiles/median.cpp.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/practice1.dir
@@ -126,7 +435,7 @@ clean: CMakeFiles/score8.dir/clean
 CMakeFiles/practice1.dir/all:
 	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/depend
 	$(MAKE) -f CMakeFiles/practice1.dir/build.make CMakeFiles/practice1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=17,18,19 "Built target practice1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=24,25,26 "Built target practice1"
 .PHONY : CMakeFiles/practice1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -147,139 +456,274 @@ CMakeFiles/practice1.dir/clean:
 .PHONY : CMakeFiles/practice1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/testAlgorithm2.dir
+# Target rules for target CMakeFiles/split.dir
 
 # All Build rule for target.
-CMakeFiles/testAlgorithm2.dir/all:
-	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/depend
-	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target testAlgorithm2"
-.PHONY : CMakeFiles/testAlgorithm2.dir/all
+CMakeFiles/split.dir/all:
+	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/depend
+	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target split"
+.PHONY : CMakeFiles/split.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/testAlgorithm2.dir/rule: cmake_check_build_system
+CMakeFiles/split.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testAlgorithm2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/split.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/testAlgorithm2.dir/rule
+.PHONY : CMakeFiles/split.dir/rule
 
 # Convenience name for target.
-testAlgorithm2: CMakeFiles/testAlgorithm2.dir/rule
+split: CMakeFiles/split.dir/rule
 
-.PHONY : testAlgorithm2
+.PHONY : split
 
 # clean rule for target.
-CMakeFiles/testAlgorithm2.dir/clean:
-	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/clean
-.PHONY : CMakeFiles/testAlgorithm2.dir/clean
+CMakeFiles/split.dir/clean:
+	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/clean
+.PHONY : CMakeFiles/split.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/testAlgorithm.dir
+# Target rules for target CMakeFiles/score6.dir
 
 # All Build rule for target.
-CMakeFiles/testAlgorithm.dir/all:
-	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/depend
-	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target testAlgorithm"
-.PHONY : CMakeFiles/testAlgorithm.dir/all
+CMakeFiles/score6.dir/all:
+	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/depend
+	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target score6"
+.PHONY : CMakeFiles/score6.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/testAlgorithm.dir/rule: cmake_check_build_system
+CMakeFiles/score6.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testAlgorithm.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/testAlgorithm.dir/rule
+.PHONY : CMakeFiles/score6.dir/rule
 
 # Convenience name for target.
-testAlgorithm: CMakeFiles/testAlgorithm.dir/rule
+score6: CMakeFiles/score6.dir/rule
 
-.PHONY : testAlgorithm
+.PHONY : score6
 
 # clean rule for target.
-CMakeFiles/testAlgorithm.dir/clean:
-	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/clean
-.PHONY : CMakeFiles/testAlgorithm.dir/clean
+CMakeFiles/score6.dir/clean:
+	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/clean
+.PHONY : CMakeFiles/score6.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/countWord2.dir
+# Target rules for target CMakeFiles/palindrome.dir
 
 # All Build rule for target.
-CMakeFiles/countWord2.dir/all:
-	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/depend
-	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target countWord2"
-.PHONY : CMakeFiles/countWord2.dir/all
+CMakeFiles/palindrome.dir/all:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/depend
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target palindrome"
+.PHONY : CMakeFiles/palindrome.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/countWord2.dir/rule: cmake_check_build_system
+CMakeFiles/palindrome.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/countWord2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/palindrome.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/countWord2.dir/rule
+.PHONY : CMakeFiles/palindrome.dir/rule
 
 # Convenience name for target.
-countWord2: CMakeFiles/countWord2.dir/rule
+palindrome: CMakeFiles/palindrome.dir/rule
 
-.PHONY : countWord2
+.PHONY : palindrome
 
 # clean rule for target.
-CMakeFiles/countWord2.dir/clean:
-	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/clean
-.PHONY : CMakeFiles/countWord2.dir/clean
+CMakeFiles/palindrome.dir/clean:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/clean
+.PHONY : CMakeFiles/palindrome.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/countWord.dir
+# Target rules for target CMakeFiles/score8.dir
 
 # All Build rule for target.
-CMakeFiles/countWord.dir/all:
-	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/depend
-	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target countWord"
-.PHONY : CMakeFiles/countWord.dir/all
+CMakeFiles/score8.dir/all:
+	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/depend
+	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target score8"
+.PHONY : CMakeFiles/score8.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/countWord.dir/rule: cmake_check_build_system
+CMakeFiles/score8.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/countWord.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/countWord.dir/rule
+.PHONY : CMakeFiles/score8.dir/rule
 
 # Convenience name for target.
-countWord: CMakeFiles/countWord.dir/rule
+score8: CMakeFiles/score8.dir/rule
 
-.PHONY : countWord
+.PHONY : score8
 
 # clean rule for target.
-CMakeFiles/countWord.dir/clean:
-	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/clean
-.PHONY : CMakeFiles/countWord.dir/clean
+CMakeFiles/score8.dir/clean:
+	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/clean
+.PHONY : CMakeFiles/score8.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/averageDouble.dir
+# Target rules for target CMakeFiles/score.dir
 
 # All Build rule for target.
-CMakeFiles/averageDouble.dir/all:
-	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/depend
-	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target averageDouble"
-.PHONY : CMakeFiles/averageDouble.dir/all
+CMakeFiles/score.dir/all:
+	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/depend
+	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target score"
+.PHONY : CMakeFiles/score.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/averageDouble.dir/rule: cmake_check_build_system
+CMakeFiles/score.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/averageDouble.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/averageDouble.dir/rule
+.PHONY : CMakeFiles/score.dir/rule
 
 # Convenience name for target.
-averageDouble: CMakeFiles/averageDouble.dir/rule
+score: CMakeFiles/score.dir/rule
 
-.PHONY : averageDouble
+.PHONY : score
 
 # clean rule for target.
-CMakeFiles/averageDouble.dir/clean:
-	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/clean
-.PHONY : CMakeFiles/averageDouble.dir/clean
+CMakeFiles/score.dir/clean:
+	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/clean
+.PHONY : CMakeFiles/score.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/split2.dir
+
+# All Build rule for target.
+CMakeFiles/split2.dir/all:
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/depend
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target split2"
+.PHONY : CMakeFiles/split2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/split2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/split2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/split2.dir/rule
+
+# Convenience name for target.
+split2: CMakeFiles/split2.dir/rule
+
+.PHONY : split2
+
+# clean rule for target.
+CMakeFiles/split2.dir/clean:
+	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/clean
+.PHONY : CMakeFiles/split2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/testVector.dir
+
+# All Build rule for target.
+CMakeFiles/testVector.dir/all:
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/depend
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target testVector"
+.PHONY : CMakeFiles/testVector.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/testVector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testVector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/testVector.dir/rule
+
+# Convenience name for target.
+testVector: CMakeFiles/testVector.dir/rule
+
+.PHONY : testVector
+
+# clean rule for target.
+CMakeFiles/testVector.dir/clean:
+	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/clean
+.PHONY : CMakeFiles/testVector.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/split1.dir
+
+# All Build rule for target.
+CMakeFiles/split1.dir/all:
+	$(MAKE) -f CMakeFiles/split1.dir/build.make CMakeFiles/split1.dir/depend
+	$(MAKE) -f CMakeFiles/split1.dir/build.make CMakeFiles/split1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target split1"
+.PHONY : CMakeFiles/split1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/split1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/split1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/split1.dir/rule
+
+# Convenience name for target.
+split1: CMakeFiles/split1.dir/rule
+
+.PHONY : split1
+
+# clean rule for target.
+CMakeFiles/split1.dir/clean:
+	$(MAKE) -f CMakeFiles/split1.dir/build.make CMakeFiles/split1.dir/clean
+.PHONY : CMakeFiles/split1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/find.cpp.dir
+
+# All Build rule for target.
+CMakeFiles/find.cpp.dir/all:
+	$(MAKE) -f CMakeFiles/find.cpp.dir/build.make CMakeFiles/find.cpp.dir/depend
+	$(MAKE) -f CMakeFiles/find.cpp.dir/build.make CMakeFiles/find.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target find.cpp"
+.PHONY : CMakeFiles/find.cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/find.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/find.cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/find.cpp.dir/rule
+
+# Convenience name for target.
+find.cpp: CMakeFiles/find.cpp.dir/rule
+
+.PHONY : find.cpp
+
+# clean rule for target.
+CMakeFiles/find.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/find.cpp.dir/build.make CMakeFiles/find.cpp.dir/clean
+.PHONY : CMakeFiles/find.cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/square.dir
+
+# All Build rule for target.
+CMakeFiles/square.dir/all:
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/depend
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target square"
+.PHONY : CMakeFiles/square.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/square.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/square.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/square.dir/rule
+
+# Convenience name for target.
+square: CMakeFiles/square.dir/rule
+
+.PHONY : square
+
+# clean rule for target.
+CMakeFiles/square.dir/clean:
+	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/clean
+.PHONY : CMakeFiles/square.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/crossReference.dir
@@ -309,411 +753,6 @@ CMakeFiles/crossReference.dir/clean:
 .PHONY : CMakeFiles/crossReference.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/square.dir
-
-# All Build rule for target.
-CMakeFiles/square.dir/all:
-	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/depend
-	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target square"
-.PHONY : CMakeFiles/square.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/square.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/square.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/square.dir/rule
-
-# Convenience name for target.
-square: CMakeFiles/square.dir/rule
-
-.PHONY : square
-
-# clean rule for target.
-CMakeFiles/square.dir/clean:
-	$(MAKE) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/clean
-.PHONY : CMakeFiles/square.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/split3.dir
-
-# All Build rule for target.
-CMakeFiles/split3.dir/all:
-	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/depend
-	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target split3"
-.PHONY : CMakeFiles/split3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/split3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/split3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/split3.dir/rule
-
-# Convenience name for target.
-split3: CMakeFiles/split3.dir/rule
-
-.PHONY : split3
-
-# clean rule for target.
-CMakeFiles/split3.dir/clean:
-	$(MAKE) -f CMakeFiles/split3.dir/build.make CMakeFiles/split3.dir/clean
-.PHONY : CMakeFiles/split3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/split2.dir
-
-# All Build rule for target.
-CMakeFiles/split2.dir/all:
-	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/depend
-	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target split2"
-.PHONY : CMakeFiles/split2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/split2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/split2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/split2.dir/rule
-
-# Convenience name for target.
-split2: CMakeFiles/split2.dir/rule
-
-.PHONY : split2
-
-# clean rule for target.
-CMakeFiles/split2.dir/clean:
-	$(MAKE) -f CMakeFiles/split2.dir/build.make CMakeFiles/split2.dir/clean
-.PHONY : CMakeFiles/split2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/palindrome.dir
-
-# All Build rule for target.
-CMakeFiles/palindrome.dir/all:
-	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/depend
-	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target palindrome"
-.PHONY : CMakeFiles/palindrome.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/palindrome.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/palindrome.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/palindrome.dir/rule
-
-# Convenience name for target.
-palindrome: CMakeFiles/palindrome.dir/rule
-
-.PHONY : palindrome
-
-# clean rule for target.
-CMakeFiles/palindrome.dir/clean:
-	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/clean
-.PHONY : CMakeFiles/palindrome.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/split.dir
-
-# All Build rule for target.
-CMakeFiles/split.dir/all:
-	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/depend
-	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target split"
-.PHONY : CMakeFiles/split.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/split.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/split.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/split.dir/rule
-
-# Convenience name for target.
-split: CMakeFiles/split.dir/rule
-
-.PHONY : split
-
-# clean rule for target.
-CMakeFiles/split.dir/clean:
-	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/clean
-.PHONY : CMakeFiles/split.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/score2.dir
-
-# All Build rule for target.
-CMakeFiles/score2.dir/all:
-	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/depend
-	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target score2"
-.PHONY : CMakeFiles/score2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/score2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/score2.dir/rule
-
-# Convenience name for target.
-score2: CMakeFiles/score2.dir/rule
-
-.PHONY : score2
-
-# clean rule for target.
-CMakeFiles/score2.dir/clean:
-	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/clean
-.PHONY : CMakeFiles/score2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/score3.dir
-
-# All Build rule for target.
-CMakeFiles/score3.dir/all:
-	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/depend
-	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target score3"
-.PHONY : CMakeFiles/score3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/score3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/score3.dir/rule
-
-# Convenience name for target.
-score3: CMakeFiles/score3.dir/rule
-
-.PHONY : score3
-
-# clean rule for target.
-CMakeFiles/score3.dir/clean:
-	$(MAKE) -f CMakeFiles/score3.dir/build.make CMakeFiles/score3.dir/clean
-.PHONY : CMakeFiles/score3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/testString.dir
-
-# All Build rule for target.
-CMakeFiles/testString.dir/all:
-	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/depend
-	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target testString"
-.PHONY : CMakeFiles/testString.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/testString.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testString.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/testString.dir/rule
-
-# Convenience name for target.
-testString: CMakeFiles/testString.dir/rule
-
-.PHONY : testString
-
-# clean rule for target.
-CMakeFiles/testString.dir/clean:
-	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/clean
-.PHONY : CMakeFiles/testString.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/score.dir
-
-# All Build rule for target.
-CMakeFiles/score.dir/all:
-	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/depend
-	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target score"
-.PHONY : CMakeFiles/score.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/score.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/score.dir/rule
-
-# Convenience name for target.
-score: CMakeFiles/score.dir/rule
-
-.PHONY : score
-
-# clean rule for target.
-CMakeFiles/score.dir/clean:
-	$(MAKE) -f CMakeFiles/score.dir/build.make CMakeFiles/score.dir/clean
-.PHONY : CMakeFiles/score.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/score6.dir
-
-# All Build rule for target.
-CMakeFiles/score6.dir/all:
-	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/depend
-	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target score6"
-.PHONY : CMakeFiles/score6.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/score6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/score6.dir/rule
-
-# Convenience name for target.
-score6: CMakeFiles/score6.dir/rule
-
-.PHONY : score6
-
-# clean rule for target.
-CMakeFiles/score6.dir/clean:
-	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/clean
-.PHONY : CMakeFiles/score6.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/warpGreeting2.dir
-
-# All Build rule for target.
-CMakeFiles/warpGreeting2.dir/all:
-	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/depend
-	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target warpGreeting2"
-.PHONY : CMakeFiles/warpGreeting2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/warpGreeting2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/warpGreeting2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/warpGreeting2.dir/rule
-
-# Convenience name for target.
-warpGreeting2: CMakeFiles/warpGreeting2.dir/rule
-
-.PHONY : warpGreeting2
-
-# clean rule for target.
-CMakeFiles/warpGreeting2.dir/clean:
-	$(MAKE) -f CMakeFiles/warpGreeting2.dir/build.make CMakeFiles/warpGreeting2.dir/clean
-.PHONY : CMakeFiles/warpGreeting2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/maxMinString.dir
-
-# All Build rule for target.
-CMakeFiles/maxMinString.dir/all:
-	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/depend
-	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target maxMinString"
-.PHONY : CMakeFiles/maxMinString.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/maxMinString.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maxMinString.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/maxMinString.dir/rule
-
-# Convenience name for target.
-maxMinString: CMakeFiles/maxMinString.dir/rule
-
-.PHONY : maxMinString
-
-# clean rule for target.
-CMakeFiles/maxMinString.dir/clean:
-	$(MAKE) -f CMakeFiles/maxMinString.dir/build.make CMakeFiles/maxMinString.dir/clean
-.PHONY : CMakeFiles/maxMinString.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/testVector.dir
-
-# All Build rule for target.
-CMakeFiles/testVector.dir/all:
-	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/depend
-	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target testVector"
-.PHONY : CMakeFiles/testVector.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/testVector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testVector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/testVector.dir/rule
-
-# Convenience name for target.
-testVector: CMakeFiles/testVector.dir/rule
-
-.PHONY : testVector
-
-# clean rule for target.
-CMakeFiles/testVector.dir/clean:
-	$(MAKE) -f CMakeFiles/testVector.dir/build.make CMakeFiles/testVector.dir/clean
-.PHONY : CMakeFiles/testVector.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello.dir
-
-# All Build rule for target.
-CMakeFiles/hello.dir/all:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target hello"
-.PHONY : CMakeFiles/hello.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello.dir/rule
-
-# Convenience name for target.
-hello: CMakeFiles/hello.dir/rule
-
-.PHONY : hello
-
-# clean rule for target.
-CMakeFiles/hello.dir/clean:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
-.PHONY : CMakeFiles/hello.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/warpGreeting.dir
-
-# All Build rule for target.
-CMakeFiles/warpGreeting.dir/all:
-	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/depend
-	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target warpGreeting"
-.PHONY : CMakeFiles/warpGreeting.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/warpGreeting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/warpGreeting.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/warpGreeting.dir/rule
-
-# Convenience name for target.
-warpGreeting: CMakeFiles/warpGreeting.dir/rule
-
-.PHONY : warpGreeting
-
-# clean rule for target.
-CMakeFiles/warpGreeting.dir/clean:
-	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/clean
-.PHONY : CMakeFiles/warpGreeting.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/countString.dir
 
 # All Build rule for target.
@@ -741,13 +780,94 @@ CMakeFiles/countString.dir/clean:
 .PHONY : CMakeFiles/countString.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/averageDouble.dir
+
+# All Build rule for target.
+CMakeFiles/averageDouble.dir/all:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/depend
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target averageDouble"
+.PHONY : CMakeFiles/averageDouble.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/averageDouble.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/averageDouble.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/averageDouble.dir/rule
+
+# Convenience name for target.
+averageDouble: CMakeFiles/averageDouble.dir/rule
+
+.PHONY : averageDouble
+
+# clean rule for target.
+CMakeFiles/averageDouble.dir/clean:
+	$(MAKE) -f CMakeFiles/averageDouble.dir/build.make CMakeFiles/averageDouble.dir/clean
+.PHONY : CMakeFiles/averageDouble.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/practice8-2.dir
+
+# All Build rule for target.
+CMakeFiles/practice8-2.dir/all:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/depend
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=27,28,29 "Built target practice8-2"
+.PHONY : CMakeFiles/practice8-2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/practice8-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/practice8-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/practice8-2.dir/rule
+
+# Convenience name for target.
+practice8-2: CMakeFiles/practice8-2.dir/rule
+
+.PHONY : practice8-2
+
+# clean rule for target.
+CMakeFiles/practice8-2.dir/clean:
+	$(MAKE) -f CMakeFiles/practice8-2.dir/build.make CMakeFiles/practice8-2.dir/clean
+.PHONY : CMakeFiles/practice8-2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/countWord.dir
+
+# All Build rule for target.
+CMakeFiles/countWord.dir/all:
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/depend
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target countWord"
+.PHONY : CMakeFiles/countWord.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/countWord.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/countWord.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/countWord.dir/rule
+
+# Convenience name for target.
+countWord: CMakeFiles/countWord.dir/rule
+
+.PHONY : countWord
+
+# clean rule for target.
+CMakeFiles/countWord.dir/clean:
+	$(MAKE) -f CMakeFiles/countWord.dir/build.make CMakeFiles/countWord.dir/clean
+.PHONY : CMakeFiles/countWord.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/score4.dir
 
 # All Build rule for target.
 CMakeFiles/score4.dir/all:
 	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/depend
 	$(MAKE) -f CMakeFiles/score4.dir/build.make CMakeFiles/score4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target score4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target score4"
 .PHONY : CMakeFiles/score4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -768,85 +888,139 @@ CMakeFiles/score4.dir/clean:
 .PHONY : CMakeFiles/score4.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/score5.dir
+# Target rules for target CMakeFiles/countWord2.dir
 
 # All Build rule for target.
-CMakeFiles/score5.dir/all:
-	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/depend
-	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target score5"
-.PHONY : CMakeFiles/score5.dir/all
+CMakeFiles/countWord2.dir/all:
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/depend
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target countWord2"
+.PHONY : CMakeFiles/countWord2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/score5.dir/rule: cmake_check_build_system
+CMakeFiles/countWord2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score5.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/countWord2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/score5.dir/rule
+.PHONY : CMakeFiles/countWord2.dir/rule
 
 # Convenience name for target.
-score5: CMakeFiles/score5.dir/rule
+countWord2: CMakeFiles/countWord2.dir/rule
 
-.PHONY : score5
+.PHONY : countWord2
 
 # clean rule for target.
-CMakeFiles/score5.dir/clean:
-	$(MAKE) -f CMakeFiles/score5.dir/build.make CMakeFiles/score5.dir/clean
-.PHONY : CMakeFiles/score5.dir/clean
+CMakeFiles/countWord2.dir/clean:
+	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/clean
+.PHONY : CMakeFiles/countWord2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/score7.dir
+# Target rules for target CMakeFiles/score9_1.dir
 
 # All Build rule for target.
-CMakeFiles/score7.dir/all:
-	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/depend
-	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target score7"
-.PHONY : CMakeFiles/score7.dir/all
+CMakeFiles/score9_1.dir/all:
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/depend
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target score9_1"
+.PHONY : CMakeFiles/score9_1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/score7.dir/rule: cmake_check_build_system
+CMakeFiles/score9_1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score7.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score9_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/score7.dir/rule
+.PHONY : CMakeFiles/score9_1.dir/rule
 
 # Convenience name for target.
-score7: CMakeFiles/score7.dir/rule
+score9_1: CMakeFiles/score9_1.dir/rule
 
-.PHONY : score7
+.PHONY : score9_1
 
 # clean rule for target.
-CMakeFiles/score7.dir/clean:
-	$(MAKE) -f CMakeFiles/score7.dir/build.make CMakeFiles/score7.dir/clean
-.PHONY : CMakeFiles/score7.dir/clean
+CMakeFiles/score9_1.dir/clean:
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/clean
+.PHONY : CMakeFiles/score9_1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/score8.dir
+# Target rules for target CMakeFiles/testAlgorithm.dir
 
 # All Build rule for target.
-CMakeFiles/score8.dir/all:
-	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/depend
-	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target score8"
-.PHONY : CMakeFiles/score8.dir/all
+CMakeFiles/testAlgorithm.dir/all:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/depend
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target testAlgorithm"
+.PHONY : CMakeFiles/testAlgorithm.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/score8.dir/rule: cmake_check_build_system
+CMakeFiles/testAlgorithm.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/score8.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testAlgorithm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/score8.dir/rule
+.PHONY : CMakeFiles/testAlgorithm.dir/rule
 
 # Convenience name for target.
-score8: CMakeFiles/score8.dir/rule
+testAlgorithm: CMakeFiles/testAlgorithm.dir/rule
 
-.PHONY : score8
+.PHONY : testAlgorithm
 
 # clean rule for target.
-CMakeFiles/score8.dir/clean:
-	$(MAKE) -f CMakeFiles/score8.dir/build.make CMakeFiles/score8.dir/clean
-.PHONY : CMakeFiles/score8.dir/clean
+CMakeFiles/testAlgorithm.dir/clean:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/clean
+.PHONY : CMakeFiles/testAlgorithm.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/warpGreeting.dir
+
+# All Build rule for target.
+CMakeFiles/warpGreeting.dir/all:
+	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/depend
+	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target warpGreeting"
+.PHONY : CMakeFiles/warpGreeting.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/warpGreeting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/warpGreeting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/warpGreeting.dir/rule
+
+# Convenience name for target.
+warpGreeting: CMakeFiles/warpGreeting.dir/rule
+
+.PHONY : warpGreeting
+
+# clean rule for target.
+CMakeFiles/warpGreeting.dir/clean:
+	$(MAKE) -f CMakeFiles/warpGreeting.dir/build.make CMakeFiles/warpGreeting.dir/clean
+.PHONY : CMakeFiles/warpGreeting.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/testAlgorithm2.dir
+
+# All Build rule for target.
+CMakeFiles/testAlgorithm2.dir/all:
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/depend
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target testAlgorithm2"
+.PHONY : CMakeFiles/testAlgorithm2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/testAlgorithm2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testAlgorithm2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/testAlgorithm2.dir/rule
+
+# Convenience name for target.
+testAlgorithm2: CMakeFiles/testAlgorithm2.dir/rule
+
+.PHONY : testAlgorithm2
+
+# clean rule for target.
+CMakeFiles/testAlgorithm2.dir/clean:
+	$(MAKE) -f CMakeFiles/testAlgorithm2.dir/build.make CMakeFiles/testAlgorithm2.dir/clean
+.PHONY : CMakeFiles/testAlgorithm2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

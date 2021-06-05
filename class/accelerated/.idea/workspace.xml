@@ -6,13 +6,17 @@
       <config projectName="accelerated" targetName="practice1" />
       <config projectName="accelerated" targetName="split" />
       <config projectName="accelerated" targetName="palindrome" />
+      <config projectName="accelerated" targetName="practice8-2" />
       <config projectName="accelerated" targetName="warpGreeting" />
+      <config projectName="accelerated" targetName="score9" />
       <config projectName="accelerated" targetName="countWord" />
       <config projectName="accelerated" targetName="countString" />
       <config projectName="accelerated" targetName="maxMinString" />
       <config projectName="accelerated" targetName="crossReference" />
       <config projectName="accelerated" targetName="testAlgorithm" />
+      <config projectName="accelerated" targetName="median.cpp" />
       <config projectName="accelerated" targetName="score" />
+      <config projectName="accelerated" targetName="find.cpp" />
       <config projectName="accelerated" targetName="testAlgorithm2" />
       <config projectName="accelerated" targetName="score6" />
       <config projectName="accelerated" targetName="score5" />
@@ -25,10 +29,12 @@
       <config projectName="accelerated" targetName="score3" />
       <config projectName="accelerated" targetName="testString" />
       <config projectName="accelerated" targetName="hello" />
-      <config projectName="accelerated" targetName="split3" />
+      <config projectName="accelerated" targetName="score9_1" />
       <config projectName="accelerated" targetName="countWord2" />
       <config projectName="accelerated" targetName="split2" />
+      <config projectName="accelerated" targetName="split1" />
       <config projectName="accelerated" targetName="testVector" />
+      <config projectName="accelerated" targetName="main_split" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -38,6 +44,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712ad1a5-3385-47f2-8ef8-02b8ccb09777" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -56,9 +63,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerated.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerated.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testAlgorithm.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,19 +109,14 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ajh07\Desktop\Github portfolio\LearningtheCpp\class\accelerated" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.crossReference">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.main_split">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -148,12 +147,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="find.cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="find.cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="find.cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hello" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="hello">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main_split" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="main_split" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="main_split">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="maxMinString" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="maxMinString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="maxMinString">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="median.cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="median.cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="median.cpp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -164,6 +178,11 @@
       </method>
     </configuration>
     <configuration name="practice1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="practice1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="practice1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice8-2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="practice8-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="practice8-2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -208,17 +227,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="score9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="score9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="score9">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="score9_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="score9_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="score9_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="split" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="split" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="split">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="split2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="split2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="split2">
+    <configuration name="split1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="split1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="split1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="split3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="split3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="split3">
+    <configuration name="split2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="split2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="split2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -258,16 +287,25 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.averageDouble" />
       <item itemvalue="CMake Application.countString" />
       <item itemvalue="CMake Application.countWord" />
       <item itemvalue="CMake Application.countWord2" />
       <item itemvalue="CMake Application.crossReference" />
+      <item itemvalue="CMake Application.find.cpp" />
       <item itemvalue="CMake Application.hello" />
+      <item itemvalue="CMake Application.main_split" />
       <item itemvalue="CMake Application.maxMinString" />
+      <item itemvalue="CMake Application.median.cpp" />
       <item itemvalue="CMake Application.palindrome" />
       <item itemvalue="CMake Application.practice1" />
+      <item itemvalue="CMake Application.practice8-2" />
       <item itemvalue="CMake Application.score" />
       <item itemvalue="CMake Application.score2" />
       <item itemvalue="CMake Application.score3" />
@@ -276,9 +314,11 @@
       <item itemvalue="CMake Application.score6" />
       <item itemvalue="CMake Application.score7" />
       <item itemvalue="CMake Application.score8" />
+      <item itemvalue="CMake Application.score9" />
+      <item itemvalue="CMake Application.score9_1" />
       <item itemvalue="CMake Application.split" />
+      <item itemvalue="CMake Application.split1" />
       <item itemvalue="CMake Application.split2" />
-      <item itemvalue="CMake Application.split3" />
       <item itemvalue="CMake Application.square" />
       <item itemvalue="CMake Application.testAlgorithm" />
       <item itemvalue="CMake Application.testAlgorithm2" />
@@ -304,7 +344,8 @@
       <workItem from="1622594717020" duration="4943000" />
       <workItem from="1622601135512" duration="7586000" />
       <workItem from="1622621613172" duration="606000" />
-      <workItem from="1622678949594" duration="19576000" />
+      <workItem from="1622678949594" duration="20233000" />
+      <workItem from="1622765393303" duration="21363000" />
     </task>
     <servers />
   </component>
