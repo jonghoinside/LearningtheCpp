@@ -8,7 +8,9 @@
       <config projectName="accelerated" targetName="palindrome" />
       <config projectName="accelerated" targetName="practice8-2" />
       <config projectName="accelerated" targetName="warpGreeting" />
+      <config projectName="accelerated" targetName="score11" />
       <config projectName="accelerated" targetName="score9" />
+      <config projectName="accelerated" targetName="score10" />
       <config projectName="accelerated" targetName="countWord" />
       <config projectName="accelerated" targetName="countString" />
       <config projectName="accelerated" targetName="maxMinString" />
@@ -35,6 +37,7 @@
       <config projectName="accelerated" targetName="split1" />
       <config projectName="accelerated" targetName="testVector" />
       <config projectName="accelerated" targetName="main_split" />
+      <config projectName="accelerated" targetName="Vec" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -44,12 +47,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712ad1a5-3385-47f2-8ef8-02b8ccb09777" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/averageDouble.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/averageDouble.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/countString.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/countString.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/countWord.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/countWord.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/maxMinString.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/maxMinString.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
@@ -63,6 +68,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerated.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerated.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/practice1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/practice1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testC/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/testC/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +120,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Github\LearningtheCpp\class\accelerated" />
+      <recent name="C:\Users\user\Desktop\Github\LearningtheCpp\class\accelerated\score10" />
       <recent name="C:\Users\ajh07\Desktop\Github portfolio\LearningtheCpp\class\accelerated" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.main_split">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.practice1">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vec" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="Vec" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="Vec">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -188,6 +202,16 @@
       </method>
     </configuration>
     <configuration name="score" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="score" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="score">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="score10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="score10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="score10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="score11" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="score11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="score11">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -307,6 +331,8 @@
       <item itemvalue="CMake Application.practice1" />
       <item itemvalue="CMake Application.practice8-2" />
       <item itemvalue="CMake Application.score" />
+      <item itemvalue="CMake Application.score10" />
+      <item itemvalue="CMake Application.score11" />
       <item itemvalue="CMake Application.score2" />
       <item itemvalue="CMake Application.score3" />
       <item itemvalue="CMake Application.score4" />
@@ -324,6 +350,7 @@
       <item itemvalue="CMake Application.testAlgorithm2" />
       <item itemvalue="CMake Application.testString" />
       <item itemvalue="CMake Application.testVector" />
+      <item itemvalue="CMake Application.Vec" />
       <item itemvalue="CMake Application.warpGreeting" />
       <item itemvalue="CMake Application.warpGreeting2" />
     </list>
@@ -345,7 +372,8 @@
       <workItem from="1622601135512" duration="7586000" />
       <workItem from="1622621613172" duration="606000" />
       <workItem from="1622678949594" duration="20233000" />
-      <workItem from="1622765393303" duration="21363000" />
+      <workItem from="1622765393303" duration="21957000" />
+      <workItem from="1623025176562" duration="24607000" />
     </task>
     <servers />
   </component>
@@ -376,6 +404,11 @@
           <url>file://$PROJECT_DIR$/testAlgorithm2.cpp</url>
           <line>25</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/testC/main.c</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
