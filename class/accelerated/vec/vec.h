@@ -5,6 +5,7 @@
 #ifndef ACCELERATED_VEC_H
 #define ACCELERATED_VEC_H
 
+#include <algorithm>
 #include <memory>
 
 template <typename T>
@@ -36,6 +37,10 @@ public:
     const_iterator cend() const;
 
     void push_back(const T& val);
+
+    iterator erase(iterator it);
+    iterator erase(const T& val);
+    void clear();
 
 private:
     T* data;
@@ -146,6 +151,46 @@ void Vec<T>::push_back(const T &val) {
         this->grow();
     this->unchecked_append(val);
 }
+template <typename T>
+typename Vec<T>::iterator Vec<T>::erase(const T& val) {
+    typename Vec<T>::iterator it = this->data;
+    if(this->data ) {
+        while (it != this->avail) {
+            if(*it == val)
+                break;
+            ++it;
+        }
+        if (it != this->avail) {
+            this->alloc.destroy(it);
+            std::copy(it + 1, this->avail, it);
+            --this->avail;
+            this->alloc.destroy(this->avail);
+        }
+    }
+    return it;
+}
+template <typename T>
+typename Vec<T>::iterator Vec<T>::erase(Vec<T>::iterator it) {
+    this->alloc.destroy(it);
+    std::copy(it + 1, this->avail, it);
+    --this->avail;
+    this->alloc.destroy(this->avail);
+
+    return it;
+}
+
+template <typename T>
+void Vec<T>::clear() {
+    if(this->data ) {
+        typename Vec<T>::iterator it = this->avail;
+        while (it != this->data) {
+            this->alloc.destroy(it);
+            --it;
+        }
+        this->data = this->avail = 0;
+    }
+}
+
 template <typename T>
 void Vec<T>::grow() {
     typename Vec<T>::size_type  new_size;

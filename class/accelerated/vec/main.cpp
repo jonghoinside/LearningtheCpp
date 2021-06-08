@@ -15,8 +15,12 @@ int main() {
     vec3.push_back(5);
     vec3.push_back(4);
     vec3.push_back(3);
+    vec3.push_back(6);
     vec3.push_back(2);
     vec3.push_back(1);
+
+    vec3.erase(6);
+    vec3.erase(vec3.begin() + 2);
 
     Vec<int> vec4 = vec3;
 
