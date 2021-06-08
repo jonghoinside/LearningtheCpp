@@ -785,6 +785,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Str">
+				<Option output="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Str" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Str" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="score6">
 				<Option output="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/score6" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug"/>
@@ -1622,6 +1666,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/Str/main.cpp">
+			<Option target="Str"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/Str/str.cpp">
+			<Option target="Str"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/Str/str.h">
+			<Option target="Str"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/averageDouble.cpp">
 			<Option target="averageDouble"/>
 		</Unit>

@@ -17,6 +17,7 @@
 /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/score11.dir
 /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/practice1.dir
 /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/split.dir
+/mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/Str.dir
 /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/score6.dir
 /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/palindrome.dir
 /mnt/c/Users/user/Desktop/Github/LearningtheCpp/class/accelerated/cmake-build-debug/CMakeFiles/Vec.dir

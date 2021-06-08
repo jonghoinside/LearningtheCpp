@@ -332,6 +332,19 @@ split/fast:
 .PHONY : split/fast
 
 #=============================================================================
+# Target rules for targets named Str
+
+# Build rule for target.
+Str: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Str
+.PHONY : Str
+
+# fast build rule for target.
+Str/fast:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/build
+.PHONY : Str/fast
+
+#=============================================================================
 # Target rules for targets named score6
 
 # Build rule for target.
@@ -577,6 +590,60 @@ testAlgorithm: cmake_check_build_system
 testAlgorithm/fast:
 	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
 .PHONY : testAlgorithm/fast
+
+Str/main.o: Str/main.cpp.o
+
+.PHONY : Str/main.o
+
+# target to build an object file
+Str/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/Str/main.cpp.o
+.PHONY : Str/main.cpp.o
+
+Str/main.i: Str/main.cpp.i
+
+.PHONY : Str/main.i
+
+# target to preprocess a source file
+Str/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/Str/main.cpp.i
+.PHONY : Str/main.cpp.i
+
+Str/main.s: Str/main.cpp.s
+
+.PHONY : Str/main.s
+
+# target to generate assembly for a file
+Str/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/Str/main.cpp.s
+.PHONY : Str/main.cpp.s
+
+Str/str.o: Str/str.cpp.o
+
+.PHONY : Str/str.o
+
+# target to build an object file
+Str/str.cpp.o:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/Str/str.cpp.o
+.PHONY : Str/str.cpp.o
+
+Str/str.i: Str/str.cpp.i
+
+.PHONY : Str/str.i
+
+# target to preprocess a source file
+Str/str.cpp.i:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/Str/str.cpp.i
+.PHONY : Str/str.cpp.i
+
+Str/str.s: Str/str.cpp.s
+
+.PHONY : Str/str.s
+
+# target to generate assembly for a file
+Str/str.cpp.s:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/Str/str.cpp.s
+.PHONY : Str/str.cpp.s
 
 averageDouble.o: averageDouble.cpp.o
 
@@ -1872,6 +1939,7 @@ help:
 	@echo "... score11"
 	@echo "... practice1"
 	@echo "... split"
+	@echo "... Str"
 	@echo "... score6"
 	@echo "... palindrome"
 	@echo "... Vec"
@@ -1891,6 +1959,12 @@ help:
 	@echo "... countWord2"
 	@echo "... score9_1"
 	@echo "... testAlgorithm"
+	@echo "... Str/main.o"
+	@echo "... Str/main.i"
+	@echo "... Str/main.s"
+	@echo "... Str/str.o"
+	@echo "... Str/str.i"
+	@echo "... Str/str.s"
 	@echo "... averageDouble.o"
 	@echo "... averageDouble.i"
 	@echo "... averageDouble.s"

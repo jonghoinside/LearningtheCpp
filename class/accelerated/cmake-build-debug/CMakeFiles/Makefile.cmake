@@ -65,6 +65,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/score11.dir/DependInfo.cmake"
   "CMakeFiles/practice1.dir/DependInfo.cmake"
   "CMakeFiles/split.dir/DependInfo.cmake"
+  "CMakeFiles/Str.dir/DependInfo.cmake"
   "CMakeFiles/score6.dir/DependInfo.cmake"
   "CMakeFiles/palindrome.dir/DependInfo.cmake"
   "CMakeFiles/Vec.dir/DependInfo.cmake"

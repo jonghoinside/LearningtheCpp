@@ -13,6 +13,7 @@
       <config projectName="accelerated" targetName="score10" />
       <config projectName="accelerated" targetName="countWord" />
       <config projectName="accelerated" targetName="countString" />
+      <config projectName="accelerated" targetName="Str" />
       <config projectName="accelerated" targetName="maxMinString" />
       <config projectName="accelerated" targetName="crossReference" />
       <config projectName="accelerated" targetName="testAlgorithm" />
@@ -67,9 +68,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/warpGreeting2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/warpGreeting2.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Vec" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Vec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerated.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerated.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/practice1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/practice1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testC/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/testC/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vec/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vec/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vec/vec.h" beforeDir="false" afterPath="$PROJECT_DIR$/vec/vec.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,24 +116,31 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Str" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Github\LearningtheCpp\class\accelerated\Str" />
       <recent name="C:\Users\user\Desktop\Github\LearningtheCpp\class\accelerated" />
       <recent name="C:\Users\user\Desktop\Github\LearningtheCpp\class\accelerated\score10" />
       <recent name="C:\Users\ajh07\Desktop\Github portfolio\LearningtheCpp\class\accelerated" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.practice1">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.Str">
+    <configuration name="Str" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="Str" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="Str">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Vec" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerated" TARGET_NAME="Vec" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerated" RUN_TARGET_NAME="Vec">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -346,6 +355,7 @@
       <item itemvalue="CMake Application.split1" />
       <item itemvalue="CMake Application.split2" />
       <item itemvalue="CMake Application.square" />
+      <item itemvalue="CMake Application.Str" />
       <item itemvalue="CMake Application.testAlgorithm" />
       <item itemvalue="CMake Application.testAlgorithm2" />
       <item itemvalue="CMake Application.testString" />
@@ -373,7 +383,8 @@
       <workItem from="1622621613172" duration="606000" />
       <workItem from="1622678949594" duration="20233000" />
       <workItem from="1622765393303" duration="21957000" />
-      <workItem from="1623025176562" duration="24607000" />
+      <workItem from="1623025176562" duration="25202000" />
+      <workItem from="1623111185982" duration="21699000" />
     </task>
     <servers />
   </component>
@@ -396,19 +407,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/testC/solution.c</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/vec/main.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/testAlgorithm2.cpp</url>
-          <line>25</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/testC/main.c</url>
-          <line>27</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/Str/main.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -419,5 +425,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="s6" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
