@@ -137,6 +137,19 @@ median.cpp/fast:
 .PHONY : median.cpp/fast
 
 #=============================================================================
+# Target rules for targets named testString
+
+# Build rule for target.
+testString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testString
+.PHONY : testString
+
+# fast build rule for target.
+testString/fast:
+	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/build
+.PHONY : testString/fast
+
+#=============================================================================
 # Target rules for targets named score7
 
 # Build rule for target.
@@ -163,17 +176,56 @@ score5/fast:
 .PHONY : score5/fast
 
 #=============================================================================
-# Target rules for targets named testString
+# Target rules for targets named Str
 
 # Build rule for target.
-testString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testString
-.PHONY : testString
+Str: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Str
+.PHONY : Str
 
 # fast build rule for target.
-testString/fast:
-	$(MAKE) -f CMakeFiles/testString.dir/build.make CMakeFiles/testString.dir/build
-.PHONY : testString/fast
+Str/fast:
+	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/build
+.PHONY : Str/fast
+
+#=============================================================================
+# Target rules for targets named palindrome
+
+# Build rule for target.
+palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palindrome
+.PHONY : palindrome
+
+# fast build rule for target.
+palindrome/fast:
+	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
+.PHONY : palindrome/fast
+
+#=============================================================================
+# Target rules for targets named score6
+
+# Build rule for target.
+score6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score6
+.PHONY : score6
+
+# fast build rule for target.
+score6/fast:
+	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/build
+.PHONY : score6/fast
+
+#=============================================================================
+# Target rules for targets named score12
+
+# Build rule for target.
+score12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score12
+.PHONY : score12
+
+# fast build rule for target.
+score12/fast:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/build
+.PHONY : score12/fast
 
 #=============================================================================
 # Target rules for targets named score3
@@ -267,6 +319,19 @@ warpGreeting2/fast:
 .PHONY : warpGreeting2/fast
 
 #=============================================================================
+# Target rules for targets named Str2
+
+# Build rule for target.
+Str2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Str2
+.PHONY : Str2
+
+# fast build rule for target.
+Str2/fast:
+	$(MAKE) -f CMakeFiles/Str2.dir/build.make CMakeFiles/Str2.dir/build
+.PHONY : Str2/fast
+
+#=============================================================================
 # Target rules for targets named score2
 
 # Build rule for target.
@@ -278,6 +343,32 @@ score2: cmake_check_build_system
 score2/fast:
 	$(MAKE) -f CMakeFiles/score2.dir/build.make CMakeFiles/score2.dir/build
 .PHONY : score2/fast
+
+#=============================================================================
+# Target rules for targets named testAlgorithm
+
+# Build rule for target.
+testAlgorithm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm
+.PHONY : testAlgorithm
+
+# fast build rule for target.
+testAlgorithm/fast:
+	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
+.PHONY : testAlgorithm/fast
+
+#=============================================================================
+# Target rules for targets named score9_1
+
+# Build rule for target.
+score9_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score9_1
+.PHONY : score9_1
+
+# fast build rule for target.
+score9_1/fast:
+	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/build
+.PHONY : score9_1/fast
 
 #=============================================================================
 # Target rules for targets named score10
@@ -306,6 +397,32 @@ score11/fast:
 .PHONY : score11/fast
 
 #=============================================================================
+# Target rules for targets named score14
+
+# Build rule for target.
+score14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score14
+.PHONY : score14
+
+# fast build rule for target.
+score14/fast:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/build
+.PHONY : score14/fast
+
+#=============================================================================
+# Target rules for targets named score15
+
+# Build rule for target.
+score15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score15
+.PHONY : score15
+
+# fast build rule for target.
+score15/fast:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/build
+.PHONY : score15/fast
+
+#=============================================================================
 # Target rules for targets named practice1
 
 # Build rule for target.
@@ -330,45 +447,6 @@ split: cmake_check_build_system
 split/fast:
 	$(MAKE) -f CMakeFiles/split.dir/build.make CMakeFiles/split.dir/build
 .PHONY : split/fast
-
-#=============================================================================
-# Target rules for targets named Str
-
-# Build rule for target.
-Str: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Str
-.PHONY : Str
-
-# fast build rule for target.
-Str/fast:
-	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/build
-.PHONY : Str/fast
-
-#=============================================================================
-# Target rules for targets named score6
-
-# Build rule for target.
-score6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score6
-.PHONY : score6
-
-# fast build rule for target.
-score6/fast:
-	$(MAKE) -f CMakeFiles/score6.dir/build.make CMakeFiles/score6.dir/build
-.PHONY : score6/fast
-
-#=============================================================================
-# Target rules for targets named palindrome
-
-# Build rule for target.
-palindrome: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 palindrome
-.PHONY : palindrome
-
-# fast build rule for target.
-palindrome/fast:
-	$(MAKE) -f CMakeFiles/palindrome.dir/build.make CMakeFiles/palindrome.dir/build
-.PHONY : palindrome/fast
 
 #=============================================================================
 # Target rules for targets named Vec
@@ -527,6 +605,19 @@ practice8-2/fast:
 .PHONY : practice8-2/fast
 
 #=============================================================================
+# Target rules for targets named score13
+
+# Build rule for target.
+score13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 score13
+.PHONY : score13
+
+# fast build rule for target.
+score13/fast:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/build
+.PHONY : score13/fast
+
+#=============================================================================
 # Target rules for targets named countWord
 
 # Build rule for target.
@@ -564,32 +655,6 @@ countWord2: cmake_check_build_system
 countWord2/fast:
 	$(MAKE) -f CMakeFiles/countWord2.dir/build.make CMakeFiles/countWord2.dir/build
 .PHONY : countWord2/fast
-
-#=============================================================================
-# Target rules for targets named score9_1
-
-# Build rule for target.
-score9_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 score9_1
-.PHONY : score9_1
-
-# fast build rule for target.
-score9_1/fast:
-	$(MAKE) -f CMakeFiles/score9_1.dir/build.make CMakeFiles/score9_1.dir/build
-.PHONY : score9_1/fast
-
-#=============================================================================
-# Target rules for targets named testAlgorithm
-
-# Build rule for target.
-testAlgorithm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testAlgorithm
-.PHONY : testAlgorithm
-
-# fast build rule for target.
-testAlgorithm/fast:
-	$(MAKE) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
-.PHONY : testAlgorithm/fast
 
 Str/main.o: Str/main.cpp.o
 
@@ -644,6 +709,60 @@ Str/str.s: Str/str.cpp.s
 Str/str.cpp.s:
 	$(MAKE) -f CMakeFiles/Str.dir/build.make CMakeFiles/Str.dir/Str/str.cpp.s
 .PHONY : Str/str.cpp.s
+
+Str2/main.o: Str2/main.cpp.o
+
+.PHONY : Str2/main.o
+
+# target to build an object file
+Str2/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Str2.dir/build.make CMakeFiles/Str2.dir/Str2/main.cpp.o
+.PHONY : Str2/main.cpp.o
+
+Str2/main.i: Str2/main.cpp.i
+
+.PHONY : Str2/main.i
+
+# target to preprocess a source file
+Str2/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Str2.dir/build.make CMakeFiles/Str2.dir/Str2/main.cpp.i
+.PHONY : Str2/main.cpp.i
+
+Str2/main.s: Str2/main.cpp.s
+
+.PHONY : Str2/main.s
+
+# target to generate assembly for a file
+Str2/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Str2.dir/build.make CMakeFiles/Str2.dir/Str2/main.cpp.s
+.PHONY : Str2/main.cpp.s
+
+Str2/str.o: Str2/str.cpp.o
+
+.PHONY : Str2/str.o
+
+# target to build an object file
+Str2/str.cpp.o:
+	$(MAKE) -f CMakeFiles/Str2.dir/build.make CMakeFiles/Str2.dir/Str2/str.cpp.o
+.PHONY : Str2/str.cpp.o
+
+Str2/str.i: Str2/str.cpp.i
+
+.PHONY : Str2/str.i
+
+# target to preprocess a source file
+Str2/str.cpp.i:
+	$(MAKE) -f CMakeFiles/Str2.dir/build.make CMakeFiles/Str2.dir/Str2/str.cpp.i
+.PHONY : Str2/str.cpp.i
+
+Str2/str.s: Str2/str.cpp.s
+
+.PHONY : Str2/str.s
+
+# target to generate assembly for a file
+Str2/str.cpp.s:
+	$(MAKE) -f CMakeFiles/Str2.dir/build.make CMakeFiles/Str2.dir/Str2/str.cpp.s
+.PHONY : Str2/str.cpp.s
 
 averageDouble.o: averageDouble.cpp.o
 
@@ -1265,6 +1384,627 @@ score11/student_info.s: score11/student_info.cpp.s
 score11/student_info.cpp.s:
 	$(MAKE) -f CMakeFiles/score11.dir/build.make CMakeFiles/score11.dir/score11/student_info.cpp.s
 .PHONY : score11/student_info.cpp.s
+
+score12/core.o: score12/core.cpp.o
+
+.PHONY : score12/core.o
+
+# target to build an object file
+score12/core.cpp.o:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/core.cpp.o
+.PHONY : score12/core.cpp.o
+
+score12/core.i: score12/core.cpp.i
+
+.PHONY : score12/core.i
+
+# target to preprocess a source file
+score12/core.cpp.i:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/core.cpp.i
+.PHONY : score12/core.cpp.i
+
+score12/core.s: score12/core.cpp.s
+
+.PHONY : score12/core.s
+
+# target to generate assembly for a file
+score12/core.cpp.s:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/core.cpp.s
+.PHONY : score12/core.cpp.s
+
+score12/grad.o: score12/grad.cpp.o
+
+.PHONY : score12/grad.o
+
+# target to build an object file
+score12/grad.cpp.o:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/grad.cpp.o
+.PHONY : score12/grad.cpp.o
+
+score12/grad.i: score12/grad.cpp.i
+
+.PHONY : score12/grad.i
+
+# target to preprocess a source file
+score12/grad.cpp.i:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/grad.cpp.i
+.PHONY : score12/grad.cpp.i
+
+score12/grad.s: score12/grad.cpp.s
+
+.PHONY : score12/grad.s
+
+# target to generate assembly for a file
+score12/grad.cpp.s:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/grad.cpp.s
+.PHONY : score12/grad.cpp.s
+
+score12/grade.o: score12/grade.cpp.o
+
+.PHONY : score12/grade.o
+
+# target to build an object file
+score12/grade.cpp.o:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/grade.cpp.o
+.PHONY : score12/grade.cpp.o
+
+score12/grade.i: score12/grade.cpp.i
+
+.PHONY : score12/grade.i
+
+# target to preprocess a source file
+score12/grade.cpp.i:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/grade.cpp.i
+.PHONY : score12/grade.cpp.i
+
+score12/grade.s: score12/grade.cpp.s
+
+.PHONY : score12/grade.s
+
+# target to generate assembly for a file
+score12/grade.cpp.s:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/grade.cpp.s
+.PHONY : score12/grade.cpp.s
+
+score12/main.o: score12/main.cpp.o
+
+.PHONY : score12/main.o
+
+# target to build an object file
+score12/main.cpp.o:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/main.cpp.o
+.PHONY : score12/main.cpp.o
+
+score12/main.i: score12/main.cpp.i
+
+.PHONY : score12/main.i
+
+# target to preprocess a source file
+score12/main.cpp.i:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/main.cpp.i
+.PHONY : score12/main.cpp.i
+
+score12/main.s: score12/main.cpp.s
+
+.PHONY : score12/main.s
+
+# target to generate assembly for a file
+score12/main.cpp.s:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/main.cpp.s
+.PHONY : score12/main.cpp.s
+
+score12/median.o: score12/median.cpp.o
+
+.PHONY : score12/median.o
+
+# target to build an object file
+score12/median.cpp.o:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/median.cpp.o
+.PHONY : score12/median.cpp.o
+
+score12/median.i: score12/median.cpp.i
+
+.PHONY : score12/median.i
+
+# target to preprocess a source file
+score12/median.cpp.i:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/median.cpp.i
+.PHONY : score12/median.cpp.i
+
+score12/median.s: score12/median.cpp.s
+
+.PHONY : score12/median.s
+
+# target to generate assembly for a file
+score12/median.cpp.s:
+	$(MAKE) -f CMakeFiles/score12.dir/build.make CMakeFiles/score12.dir/score12/median.cpp.s
+.PHONY : score12/median.cpp.s
+
+score13/core.o: score13/core.cpp.o
+
+.PHONY : score13/core.o
+
+# target to build an object file
+score13/core.cpp.o:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/core.cpp.o
+.PHONY : score13/core.cpp.o
+
+score13/core.i: score13/core.cpp.i
+
+.PHONY : score13/core.i
+
+# target to preprocess a source file
+score13/core.cpp.i:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/core.cpp.i
+.PHONY : score13/core.cpp.i
+
+score13/core.s: score13/core.cpp.s
+
+.PHONY : score13/core.s
+
+# target to generate assembly for a file
+score13/core.cpp.s:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/core.cpp.s
+.PHONY : score13/core.cpp.s
+
+score13/grad.o: score13/grad.cpp.o
+
+.PHONY : score13/grad.o
+
+# target to build an object file
+score13/grad.cpp.o:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/grad.cpp.o
+.PHONY : score13/grad.cpp.o
+
+score13/grad.i: score13/grad.cpp.i
+
+.PHONY : score13/grad.i
+
+# target to preprocess a source file
+score13/grad.cpp.i:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/grad.cpp.i
+.PHONY : score13/grad.cpp.i
+
+score13/grad.s: score13/grad.cpp.s
+
+.PHONY : score13/grad.s
+
+# target to generate assembly for a file
+score13/grad.cpp.s:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/grad.cpp.s
+.PHONY : score13/grad.cpp.s
+
+score13/grade.o: score13/grade.cpp.o
+
+.PHONY : score13/grade.o
+
+# target to build an object file
+score13/grade.cpp.o:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/grade.cpp.o
+.PHONY : score13/grade.cpp.o
+
+score13/grade.i: score13/grade.cpp.i
+
+.PHONY : score13/grade.i
+
+# target to preprocess a source file
+score13/grade.cpp.i:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/grade.cpp.i
+.PHONY : score13/grade.cpp.i
+
+score13/grade.s: score13/grade.cpp.s
+
+.PHONY : score13/grade.s
+
+# target to generate assembly for a file
+score13/grade.cpp.s:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/grade.cpp.s
+.PHONY : score13/grade.cpp.s
+
+score13/main.o: score13/main.cpp.o
+
+.PHONY : score13/main.o
+
+# target to build an object file
+score13/main.cpp.o:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/main.cpp.o
+.PHONY : score13/main.cpp.o
+
+score13/main.i: score13/main.cpp.i
+
+.PHONY : score13/main.i
+
+# target to preprocess a source file
+score13/main.cpp.i:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/main.cpp.i
+.PHONY : score13/main.cpp.i
+
+score13/main.s: score13/main.cpp.s
+
+.PHONY : score13/main.s
+
+# target to generate assembly for a file
+score13/main.cpp.s:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/main.cpp.s
+.PHONY : score13/main.cpp.s
+
+score13/median.o: score13/median.cpp.o
+
+.PHONY : score13/median.o
+
+# target to build an object file
+score13/median.cpp.o:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/median.cpp.o
+.PHONY : score13/median.cpp.o
+
+score13/median.i: score13/median.cpp.i
+
+.PHONY : score13/median.i
+
+# target to preprocess a source file
+score13/median.cpp.i:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/median.cpp.i
+.PHONY : score13/median.cpp.i
+
+score13/median.s: score13/median.cpp.s
+
+.PHONY : score13/median.s
+
+# target to generate assembly for a file
+score13/median.cpp.s:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/median.cpp.s
+.PHONY : score13/median.cpp.s
+
+score13/student_info.o: score13/student_info.cpp.o
+
+.PHONY : score13/student_info.o
+
+# target to build an object file
+score13/student_info.cpp.o:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/student_info.cpp.o
+.PHONY : score13/student_info.cpp.o
+
+score13/student_info.i: score13/student_info.cpp.i
+
+.PHONY : score13/student_info.i
+
+# target to preprocess a source file
+score13/student_info.cpp.i:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/student_info.cpp.i
+.PHONY : score13/student_info.cpp.i
+
+score13/student_info.s: score13/student_info.cpp.s
+
+.PHONY : score13/student_info.s
+
+# target to generate assembly for a file
+score13/student_info.cpp.s:
+	$(MAKE) -f CMakeFiles/score13.dir/build.make CMakeFiles/score13.dir/score13/student_info.cpp.s
+.PHONY : score13/student_info.cpp.s
+
+score14/core.o: score14/core.cpp.o
+
+.PHONY : score14/core.o
+
+# target to build an object file
+score14/core.cpp.o:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/core.cpp.o
+.PHONY : score14/core.cpp.o
+
+score14/core.i: score14/core.cpp.i
+
+.PHONY : score14/core.i
+
+# target to preprocess a source file
+score14/core.cpp.i:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/core.cpp.i
+.PHONY : score14/core.cpp.i
+
+score14/core.s: score14/core.cpp.s
+
+.PHONY : score14/core.s
+
+# target to generate assembly for a file
+score14/core.cpp.s:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/core.cpp.s
+.PHONY : score14/core.cpp.s
+
+score14/grad.o: score14/grad.cpp.o
+
+.PHONY : score14/grad.o
+
+# target to build an object file
+score14/grad.cpp.o:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/grad.cpp.o
+.PHONY : score14/grad.cpp.o
+
+score14/grad.i: score14/grad.cpp.i
+
+.PHONY : score14/grad.i
+
+# target to preprocess a source file
+score14/grad.cpp.i:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/grad.cpp.i
+.PHONY : score14/grad.cpp.i
+
+score14/grad.s: score14/grad.cpp.s
+
+.PHONY : score14/grad.s
+
+# target to generate assembly for a file
+score14/grad.cpp.s:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/grad.cpp.s
+.PHONY : score14/grad.cpp.s
+
+score14/grade.o: score14/grade.cpp.o
+
+.PHONY : score14/grade.o
+
+# target to build an object file
+score14/grade.cpp.o:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/grade.cpp.o
+.PHONY : score14/grade.cpp.o
+
+score14/grade.i: score14/grade.cpp.i
+
+.PHONY : score14/grade.i
+
+# target to preprocess a source file
+score14/grade.cpp.i:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/grade.cpp.i
+.PHONY : score14/grade.cpp.i
+
+score14/grade.s: score14/grade.cpp.s
+
+.PHONY : score14/grade.s
+
+# target to generate assembly for a file
+score14/grade.cpp.s:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/grade.cpp.s
+.PHONY : score14/grade.cpp.s
+
+score14/main.o: score14/main.cpp.o
+
+.PHONY : score14/main.o
+
+# target to build an object file
+score14/main.cpp.o:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/main.cpp.o
+.PHONY : score14/main.cpp.o
+
+score14/main.i: score14/main.cpp.i
+
+.PHONY : score14/main.i
+
+# target to preprocess a source file
+score14/main.cpp.i:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/main.cpp.i
+.PHONY : score14/main.cpp.i
+
+score14/main.s: score14/main.cpp.s
+
+.PHONY : score14/main.s
+
+# target to generate assembly for a file
+score14/main.cpp.s:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/main.cpp.s
+.PHONY : score14/main.cpp.s
+
+score14/median.o: score14/median.cpp.o
+
+.PHONY : score14/median.o
+
+# target to build an object file
+score14/median.cpp.o:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/median.cpp.o
+.PHONY : score14/median.cpp.o
+
+score14/median.i: score14/median.cpp.i
+
+.PHONY : score14/median.i
+
+# target to preprocess a source file
+score14/median.cpp.i:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/median.cpp.i
+.PHONY : score14/median.cpp.i
+
+score14/median.s: score14/median.cpp.s
+
+.PHONY : score14/median.s
+
+# target to generate assembly for a file
+score14/median.cpp.s:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/median.cpp.s
+.PHONY : score14/median.cpp.s
+
+score14/student_info.o: score14/student_info.cpp.o
+
+.PHONY : score14/student_info.o
+
+# target to build an object file
+score14/student_info.cpp.o:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/student_info.cpp.o
+.PHONY : score14/student_info.cpp.o
+
+score14/student_info.i: score14/student_info.cpp.i
+
+.PHONY : score14/student_info.i
+
+# target to preprocess a source file
+score14/student_info.cpp.i:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/student_info.cpp.i
+.PHONY : score14/student_info.cpp.i
+
+score14/student_info.s: score14/student_info.cpp.s
+
+.PHONY : score14/student_info.s
+
+# target to generate assembly for a file
+score14/student_info.cpp.s:
+	$(MAKE) -f CMakeFiles/score14.dir/build.make CMakeFiles/score14.dir/score14/student_info.cpp.s
+.PHONY : score14/student_info.cpp.s
+
+score15/core.o: score15/core.cpp.o
+
+.PHONY : score15/core.o
+
+# target to build an object file
+score15/core.cpp.o:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/core.cpp.o
+.PHONY : score15/core.cpp.o
+
+score15/core.i: score15/core.cpp.i
+
+.PHONY : score15/core.i
+
+# target to preprocess a source file
+score15/core.cpp.i:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/core.cpp.i
+.PHONY : score15/core.cpp.i
+
+score15/core.s: score15/core.cpp.s
+
+.PHONY : score15/core.s
+
+# target to generate assembly for a file
+score15/core.cpp.s:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/core.cpp.s
+.PHONY : score15/core.cpp.s
+
+score15/grad.o: score15/grad.cpp.o
+
+.PHONY : score15/grad.o
+
+# target to build an object file
+score15/grad.cpp.o:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/grad.cpp.o
+.PHONY : score15/grad.cpp.o
+
+score15/grad.i: score15/grad.cpp.i
+
+.PHONY : score15/grad.i
+
+# target to preprocess a source file
+score15/grad.cpp.i:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/grad.cpp.i
+.PHONY : score15/grad.cpp.i
+
+score15/grad.s: score15/grad.cpp.s
+
+.PHONY : score15/grad.s
+
+# target to generate assembly for a file
+score15/grad.cpp.s:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/grad.cpp.s
+.PHONY : score15/grad.cpp.s
+
+score15/grade.o: score15/grade.cpp.o
+
+.PHONY : score15/grade.o
+
+# target to build an object file
+score15/grade.cpp.o:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/grade.cpp.o
+.PHONY : score15/grade.cpp.o
+
+score15/grade.i: score15/grade.cpp.i
+
+.PHONY : score15/grade.i
+
+# target to preprocess a source file
+score15/grade.cpp.i:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/grade.cpp.i
+.PHONY : score15/grade.cpp.i
+
+score15/grade.s: score15/grade.cpp.s
+
+.PHONY : score15/grade.s
+
+# target to generate assembly for a file
+score15/grade.cpp.s:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/grade.cpp.s
+.PHONY : score15/grade.cpp.s
+
+score15/main.o: score15/main.cpp.o
+
+.PHONY : score15/main.o
+
+# target to build an object file
+score15/main.cpp.o:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/main.cpp.o
+.PHONY : score15/main.cpp.o
+
+score15/main.i: score15/main.cpp.i
+
+.PHONY : score15/main.i
+
+# target to preprocess a source file
+score15/main.cpp.i:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/main.cpp.i
+.PHONY : score15/main.cpp.i
+
+score15/main.s: score15/main.cpp.s
+
+.PHONY : score15/main.s
+
+# target to generate assembly for a file
+score15/main.cpp.s:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/main.cpp.s
+.PHONY : score15/main.cpp.s
+
+score15/median.o: score15/median.cpp.o
+
+.PHONY : score15/median.o
+
+# target to build an object file
+score15/median.cpp.o:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/median.cpp.o
+.PHONY : score15/median.cpp.o
+
+score15/median.i: score15/median.cpp.i
+
+.PHONY : score15/median.i
+
+# target to preprocess a source file
+score15/median.cpp.i:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/median.cpp.i
+.PHONY : score15/median.cpp.i
+
+score15/median.s: score15/median.cpp.s
+
+.PHONY : score15/median.s
+
+# target to generate assembly for a file
+score15/median.cpp.s:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/median.cpp.s
+.PHONY : score15/median.cpp.s
+
+score15/student_info.o: score15/student_info.cpp.o
+
+.PHONY : score15/student_info.o
+
+# target to build an object file
+score15/student_info.cpp.o:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/student_info.cpp.o
+.PHONY : score15/student_info.cpp.o
+
+score15/student_info.i: score15/student_info.cpp.i
+
+.PHONY : score15/student_info.i
+
+# target to preprocess a source file
+score15/student_info.cpp.i:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/student_info.cpp.i
+.PHONY : score15/student_info.cpp.i
+
+score15/student_info.s: score15/student_info.cpp.s
+
+.PHONY : score15/student_info.s
+
+# target to generate assembly for a file
+score15/student_info.cpp.s:
+	$(MAKE) -f CMakeFiles/score15.dir/build.make CMakeFiles/score15.dir/score15/student_info.cpp.s
+.PHONY : score15/student_info.cpp.s
 
 score2.o: score2.cpp.o
 
@@ -1924,9 +2664,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... main_split"
 	@echo "... median.cpp"
+	@echo "... testString"
 	@echo "... score7"
 	@echo "... score5"
-	@echo "... testString"
+	@echo "... Str"
+	@echo "... palindrome"
+	@echo "... score6"
+	@echo "... score12"
 	@echo "... score3"
 	@echo "... testAlgorithm2"
 	@echo "... warpGreeting"
@@ -1934,14 +2678,16 @@ help:
 	@echo "... hello"
 	@echo "... maxMinString"
 	@echo "... warpGreeting2"
+	@echo "... Str2"
 	@echo "... score2"
+	@echo "... testAlgorithm"
+	@echo "... score9_1"
 	@echo "... score10"
 	@echo "... score11"
+	@echo "... score14"
+	@echo "... score15"
 	@echo "... practice1"
 	@echo "... split"
-	@echo "... Str"
-	@echo "... score6"
-	@echo "... palindrome"
 	@echo "... Vec"
 	@echo "... score8"
 	@echo "... score"
@@ -1954,17 +2700,22 @@ help:
 	@echo "... countString"
 	@echo "... averageDouble"
 	@echo "... practice8-2"
+	@echo "... score13"
 	@echo "... countWord"
 	@echo "... score4"
 	@echo "... countWord2"
-	@echo "... score9_1"
-	@echo "... testAlgorithm"
 	@echo "... Str/main.o"
 	@echo "... Str/main.i"
 	@echo "... Str/main.s"
 	@echo "... Str/str.o"
 	@echo "... Str/str.i"
 	@echo "... Str/str.s"
+	@echo "... Str2/main.o"
+	@echo "... Str2/main.i"
+	@echo "... Str2/main.s"
+	@echo "... Str2/str.o"
+	@echo "... Str2/str.i"
+	@echo "... Str2/str.s"
 	@echo "... averageDouble.o"
 	@echo "... averageDouble.i"
 	@echo "... averageDouble.s"
@@ -2034,6 +2785,75 @@ help:
 	@echo "... score11/student_info.o"
 	@echo "... score11/student_info.i"
 	@echo "... score11/student_info.s"
+	@echo "... score12/core.o"
+	@echo "... score12/core.i"
+	@echo "... score12/core.s"
+	@echo "... score12/grad.o"
+	@echo "... score12/grad.i"
+	@echo "... score12/grad.s"
+	@echo "... score12/grade.o"
+	@echo "... score12/grade.i"
+	@echo "... score12/grade.s"
+	@echo "... score12/main.o"
+	@echo "... score12/main.i"
+	@echo "... score12/main.s"
+	@echo "... score12/median.o"
+	@echo "... score12/median.i"
+	@echo "... score12/median.s"
+	@echo "... score13/core.o"
+	@echo "... score13/core.i"
+	@echo "... score13/core.s"
+	@echo "... score13/grad.o"
+	@echo "... score13/grad.i"
+	@echo "... score13/grad.s"
+	@echo "... score13/grade.o"
+	@echo "... score13/grade.i"
+	@echo "... score13/grade.s"
+	@echo "... score13/main.o"
+	@echo "... score13/main.i"
+	@echo "... score13/main.s"
+	@echo "... score13/median.o"
+	@echo "... score13/median.i"
+	@echo "... score13/median.s"
+	@echo "... score13/student_info.o"
+	@echo "... score13/student_info.i"
+	@echo "... score13/student_info.s"
+	@echo "... score14/core.o"
+	@echo "... score14/core.i"
+	@echo "... score14/core.s"
+	@echo "... score14/grad.o"
+	@echo "... score14/grad.i"
+	@echo "... score14/grad.s"
+	@echo "... score14/grade.o"
+	@echo "... score14/grade.i"
+	@echo "... score14/grade.s"
+	@echo "... score14/main.o"
+	@echo "... score14/main.i"
+	@echo "... score14/main.s"
+	@echo "... score14/median.o"
+	@echo "... score14/median.i"
+	@echo "... score14/median.s"
+	@echo "... score14/student_info.o"
+	@echo "... score14/student_info.i"
+	@echo "... score14/student_info.s"
+	@echo "... score15/core.o"
+	@echo "... score15/core.i"
+	@echo "... score15/core.s"
+	@echo "... score15/grad.o"
+	@echo "... score15/grad.i"
+	@echo "... score15/grad.s"
+	@echo "... score15/grade.o"
+	@echo "... score15/grade.i"
+	@echo "... score15/grade.s"
+	@echo "... score15/main.o"
+	@echo "... score15/main.i"
+	@echo "... score15/main.s"
+	@echo "... score15/median.o"
+	@echo "... score15/median.i"
+	@echo "... score15/median.s"
+	@echo "... score15/student_info.o"
+	@echo "... score15/student_info.i"
+	@echo "... score15/student_info.s"
 	@echo "... score2.o"
 	@echo "... score2.i"
 	@echo "... score2.s"
